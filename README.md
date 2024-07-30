@@ -1,2 +1,2 @@
 # Professional_Projects-HTML-CSS-JS
- These are my first professional projects in HTML, CSS and JavaScript
+ Esses são os meus primeiros projetos, cujos resultados são providos de uma longa jornada de Programação.
