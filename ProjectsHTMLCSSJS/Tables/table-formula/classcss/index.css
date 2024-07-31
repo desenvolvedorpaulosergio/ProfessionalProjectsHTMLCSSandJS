@@ -1,0 +1,14 @@
+*{
+    margin: auto;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Bree+Serif&family=Questrial&display=swap');
+
+:root{
+    --background-colorth1: #cedae4;
+    --color-words1: #437fbe;
+    --color-words2: #355b79;
+    --color-words3: #007cff;
+}
+
