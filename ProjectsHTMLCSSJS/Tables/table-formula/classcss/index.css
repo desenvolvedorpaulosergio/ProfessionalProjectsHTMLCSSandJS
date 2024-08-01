@@ -36,6 +36,10 @@ th, td{
     white-space: nowrap;
 }
 
+td > img{
+    width: 50%;
+}
+
 table, tr, th, td, caption{
     border-collapse: collapse;
     border: 2px solid var(--corborda-tabela);
