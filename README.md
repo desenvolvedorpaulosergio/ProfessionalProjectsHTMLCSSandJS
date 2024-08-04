@@ -1,2 +1,2 @@
 # Professional_Projects-HTML-CSS-JS
- Esses são os meus primeiros projetos, cujos resultados são providos de uma longa jornada de Programação.
+ Para facilitar a visualização dos meus projetos, acessem um arquivo-site que contém o nome "index.html", onde conterá um link do projeto no comentário <!---->.
