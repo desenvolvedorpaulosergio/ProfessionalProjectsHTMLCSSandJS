@@ -42,7 +42,7 @@ nav > a{
 
 a > img{
     width: 100%;
-    transform: translate(0px, -12px);
+    transform: translate(0px, -14px);
 }
 
 nav > a:last-child{
