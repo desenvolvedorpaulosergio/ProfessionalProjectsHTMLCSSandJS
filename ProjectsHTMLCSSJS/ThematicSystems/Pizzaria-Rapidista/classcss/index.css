@@ -4,8 +4,8 @@
 }
 
 :root{
-    --cor-fundo-header: #5b0f01;
-    --cor-borda-header: #941900;
+    --cor-fundo-nav: #5b0f01;
+    --cor-borda-navsobre: #941900;
     --cor-letra1: white;
 }
 
@@ -13,7 +13,31 @@
     font-family: 'fonte-titulo';
     src: url(../resource/fonts/font-title.ttf);
 }
+
 @font-face {
     font-family: 'fonte-texto';
     src: url(../resource/fonts/font-text.ttf);
+}
+
+nav{
+    background-color: var(--cor-fundo-nav);
+    border: 3.5px solid var(--cor-borda-navsobre);
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+nav > a{
+    font: normal normal 3vh 'font-titulo';
+    color: var(--cor-letra1);
+    text-decoration: none;
+    flex-basis: 50px;
+    border: 2px solid black;
+}
+
+nav > a:last-child{
+    border: 2px solid var(--cor-borda-navsobre);
+    border-radius: 10px;
+    float: right;
 }
