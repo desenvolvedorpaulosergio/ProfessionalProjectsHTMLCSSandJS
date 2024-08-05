@@ -1,0 +1,19 @@
+*{
+    margin:auto;
+    padding: 0%;
+}
+
+:root{
+    --cor-fundo-header: #5b0f01;
+    --cor-borda-header: #941900;
+    --cor-letra1: white;
+}
+
+@font-face {
+    font-family: 'fonte-titulo';
+    src: url(../resource/fonts/font-title.ttf);
+}
+@font-face {
+    font-family: 'fonte-texto';
+    src: url(../resource/fonts/font-text.ttf);
+}
