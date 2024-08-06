@@ -43,6 +43,12 @@
     color: var(--cor-letra1);
     text-decoration: none;
     margin: 0px 15px;
+    transition: 300ms;
+}
+
+#estilo-navegador > a:hover{
+    text-decoration: underline;
+    color: var(--cor-letra2);
 }
 
 #estilo-navegador > a:last-child{
@@ -50,6 +56,12 @@
     border-radius: 30px;
     margin-left: auto;
     padding: 4px 20px;
+    transition: 300ms;
+}
+
+#estilo-navegador > a:last-child:hover{
+    background-color: var(--cor-borda-navsobre);
+    text-decoration: none;
 }
 
 #estilo-logo{
@@ -59,10 +71,12 @@
 }
 
 #estilo-logo > img{
-    transform: translate(-15px, 5px);
+    transform: translate(0px, 5px);
 }
 
 #estilo-icone-navegador{
     color: var(--cor-letra1);
     font-size: 100px;
+    cursor: pointer;
+    margin: 0px 1px;
 }
