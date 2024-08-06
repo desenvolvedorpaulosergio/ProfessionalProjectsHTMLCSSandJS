@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- 
-    
-    Copie o link para visualizar o sistema:
-    https://desenvolvedorpaulosergio.github.io/ProfessionalProjectsHTMLCSSandJS/ProjectsHTMLCSSJS/ThematicSystems/PizzariaRapidista/classhtml/index.html
-
-    -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema: Pizzaria-Rapidista</title>
     <link rel="shortcut icon" href="../resource/imgs/logopizzaria-rapidista.png" type="image/x-icon">
-    <link rel="stylesheet" href="../classcss/index.css">
     <link rel="stylesheet" href="../classcss/stylescreen.css">
+    <link rel="stylesheet" href="../classcss/index.css" media="all">
+    <script src="../classjs/index.js"></script>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#" id="bloco-icone"><img src="../resource/imgs/logopizzaria-rapidista.png" alt="logo"></a>
-            <div id="estilo-equiv">&equiv;</div>
+        <nav id="estilo-navegador">
+            <div id="estilo-icone-navegador">&equiv;</div>
+            <a href="#"><img src="" alt="logo"></a>
             <a href="#">Menu</a>
             <a href="#">Blog</a>
             <a href="#">Localização</a>
@@ -26,42 +21,5 @@
             <a href="#">Sobre</a>
         </nav>
     </header>
-
-        <form id="estilo-formulario" autocomplete="off">
-            <div class="estilo-div">
-                <label for="email">
-                    <input type="email" name="email" class="estilo-input" id="email" placeholder="email" minlength="10" size="35" style="margin-top: 25%;">
-                </label>
-            
-                <label for="senha">
-                    <input type="password" name="senha"  class="estilo-input" id="senha" placeholder="senha" size="35">
-                </label>
-
-                <label for="visualizar-senha" id="visualizar">
-                    <div> 
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="checkbox" id="visualizar-senha">Visualizar Senha
-                    </div>
-                </label>
-                <button id="estilo-botao">Enviar</button>
-            </div>
-
-            <div class="estilo-div" id="estilo-container-mensagem">
-                <div>
-                    <h1><span style="color: var(--cor-letra2);">Pizzaria</span><span style="color: var(--cor-letra3);"> Rapidista!</span></h1>
-                    <h2>Desbloqueie Seu Sabor</h2>
-                        <hr>
-                        <br>
-                        <p>
-                            Registre-se para acessar nossas ofertas exclusivas e
-                            aproveitar o melhor da nossa pizza. Entre em Contato
-                            conosco!
-                        </p>
-                        <h3><img src="../resource/imgs/phone.png" alt="telefone">+ 55 (88) 01234-5678</h3>
-                        <br>
-                        <hr>
-                        </div>
-                </div>
-        </form>
 </body>
 </html>

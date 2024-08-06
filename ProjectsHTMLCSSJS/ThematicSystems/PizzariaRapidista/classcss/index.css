@@ -8,10 +8,12 @@
 :root{
     --cor-fundo-nav: #5b0f01;
     --cor-borda-navsobre: #941900;
-    --cor-letra1: white;
-    --cor-letra2: #e25905;
-    --cor-letra3: #f98c08;
-    --cor-letra4: red;
+    --cor-letra1: #ffffff;
+    --cor-letra2: #d8d8d8;
+    --cor-letra3: #e25905;
+    --cor-letra4: #f98c08;
+    --cor-letra5: red;
+    --cor-fundo-transparencia: '';
     --cor-hr: #ffce1c93;
 }
 
@@ -25,141 +27,6 @@
     src: url(../resource/fonts/font-text.ttf);
 }
 
-nav{
-    background-color: var(--cor-fundo-nav);
-    border: 3.5px solid var(--cor-borda-navsobre);
-    padding: 12px 0px 12px 0px;
-    display: flex;
-    flex-flow: row wrap;
-    flex-basis: 30px;
-    align-items: center;
-}
+#estilo-navegador{
 
-nav > a{
-    font: normal normal 25px 'font-titulo';
-    color: var(--cor-letra1);
-    text-decoration: none;
-    flex-basis: 70px;
-    width: 100%;
-    height: 100%;
-    margin: 0px 14px;
-}
-
-a > img{
-    width: 120%;
-    margin-left: 10%;
-}
-
-nav > a:last-child{
-    border: 2px solid var(--cor-borda-navsobre);
-    border-radius: 30px;
-    margin-left: auto;
-    margin-right: 2%;
-    padding: 4px 20px;
-    text-align: center;
-}
-
-a:hover{
-    text-decoration: underline;
-    color: rgb(216, 216, 216);
-}
-
-a:last-child:hover{
-    text-decoration: none;
-    background-color: var(--cor-borda-navsobre);
-}
-
-#estilo-formulario{
-    background: black url(../resource/imgs/background-screen1.jpg) center center no-repeat;
-    background-size: cover;  
-    padding: 30px;
-    display: flex;
-    flex-flow: row wrap-reverse;
-    text-align: left;
-}
-
-.estilo-div{
-    background: #ffffff3a;
-    width: 320px;
-    height: 410px;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 20px 0px 18px 6%;
-    text-align: center;
-}
-
-
-#estilo-container-mensagem{
-    background: #ffffff00;
-}
-
-#estilo-container-mensagem > div > h1{
-    font: normal normal 2.2em 'fonte-titulo';
-}
-
-#estilo-container-mensagem > div > h2{
-    font: normal normal 1.5em 'fonte-titulo';
-    color: var(--cor-letra1);
-}
-
-#estilo-container-mensagem > div > h3{
-    font: normal bold 25px 'Open Sans';
-    color: var(--cor-letra4);
-}
-
-#estilo-container-mensagem > div > p{
-    font: normal normal 1.2em 'fonte-texto';
-    color: var(--cor-letra1);
-}
-
-hr{
-    border: 1px solid var(--cor-hr);
-}
-
-#estilo-container-mensagem > div{
-    margin: 25% 0px;
-}
-
-h3 > img{
-    width: 10%;
-}
-
-#estilo-botao{    
-    border: 2px solid var(--cor-borda-navsobre);
-    font: normal normal 1.5em 'fonte-titulo';
-    color: var(--cor-letra1);
-    border-radius: 30px;
-    margin-right: 2%;
-    padding: 4px 40px;
-    background: transparent;
-}
-
-#estilo-botao:hover{
-    text-decoration: none;
-    background-color: var(--cor-borda-navsobre);
-}
-
-.estilo-input{
-    background: #ffffff7e;
-    border: none;
-    border-bottom: 2px solid var(--cor-letra1);
-    padding: 8px;
-    border-radius: 5px;
-    color: var(--cor-letra1);
-    margin: 25px 0px;
-}
-#visualizar{
-    font: normal normal 1em 'fonte-texto';
-    color: white;
-    text-align: left;
-    line-height: 60px;
-}
-
-#estilo-equiv{
-    color: var(--cor-letra1);
-    font-size: 100px;
-}
-
-#estilo-equiv{
-    display: none;
 }
