@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+@media screen and (max-width: 740px) {
+    #estilo-navegador > a{
+        font-size: 22.5px;
+    }
+    #estilo-logo{
+        width: 75px;
+    }
+    #estilo-navegador > a:last-child{
+        padding: 2px 12.5px;
+    }
+}
