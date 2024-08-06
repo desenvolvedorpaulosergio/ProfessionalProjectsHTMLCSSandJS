@@ -28,5 +28,41 @@
 }
 
 #estilo-navegador{
+    border: 2px solid var(--cor-borda-navsobre);
+    background-color: var(--cor-fundo-nav);
+    padding: 10px 10px;
 
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    vertical-align: baseline;
+}
+
+#estilo-navegador > a{
+    font: normal normal 25px 'fonte-titulo';
+    color: var(--cor-letra1);
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+#estilo-navegador > a:last-child{
+    border: 2px solid var(--cor-borda-navsobre);
+    border-radius: 30px;
+    margin-left: auto;
+    padding: 4px 20px;
+}
+
+#estilo-logo{
+    width: 100px;
+    margin: 0%;
+    padding: 0%;
+}
+
+#estilo-logo > img{
+    transform: translate(-15px, 5px);
+}
+
+#estilo-icone-navegador{
+    color: var(--cor-letra1);
+    font-size: 100px;
 }
