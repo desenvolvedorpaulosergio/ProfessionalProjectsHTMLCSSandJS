@@ -8,6 +8,38 @@
         width: 75px;
     }
     #estilo-navegador > a:last-child{
-        padding: 2px 12.5px;
+        padding: 1px 15px;
     }
+}
+
+@media screen and (max-width: 562px) {
+    #estilo-icone-navegador{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    #estilo-navegador{
+        align-items: center;
+        flex-flow: column nowrap;
+        vertical-align: baseline;
+        text-align: center;
+    }
+
+    #estilo-navegador > a{
+        display: none;
+        line-height: 50px;
+        padding: 0px 30%;
+    }
+
+    #estilo-navegador > a:hover{
+        background: var(--cor-borda-navsobre);
+        border-radius: 10px;
+    }
+
+    #estilo-navegador > a:last-child{
+        padding: 0px 30%;
+        margin: 0;
+    }
+
 }

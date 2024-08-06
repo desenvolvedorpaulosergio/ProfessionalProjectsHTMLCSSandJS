@@ -55,7 +55,7 @@
     border: 2px solid var(--cor-borda-navsobre);
     border-radius: 30px;
     margin-left: auto;
-    padding: 10px;
+    padding: 1px 30px;
     transition: 300ms;
 }
 
