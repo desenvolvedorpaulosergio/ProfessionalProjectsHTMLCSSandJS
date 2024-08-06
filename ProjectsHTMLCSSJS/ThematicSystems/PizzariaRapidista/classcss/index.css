@@ -28,7 +28,7 @@
 nav{
     background-color: var(--cor-fundo-nav);
     border: 3.5px solid var(--cor-borda-navsobre);
-    padding: 15px 0px 15px 0px;
+    padding: 12px 0px 12px 0px;
     display: flex;
     flex-flow: row wrap;
     flex-basis: 30px;
@@ -148,10 +148,18 @@ h3 > img{
     color: var(--cor-letra1);
     margin: 25px 0px;
 }
-
 #visualizar{
     font: normal normal 1em 'fonte-texto';
     color: white;
     text-align: left;
     line-height: 60px;
+}
+
+#estilo-equiv{
+    color: var(--cor-letra1);
+    font-size: 100px;
+}
+
+#estilo-equiv{
+    display: none;
 }
