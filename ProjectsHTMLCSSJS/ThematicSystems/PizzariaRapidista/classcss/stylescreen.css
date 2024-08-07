@@ -42,7 +42,9 @@
         margin: 0;
     }
 
-    section{
+    /* Responsividade Parte 1 de Section */
+
+    #estilo-parte1{
         background-image: url(../resource/imgs/background-screen1portrait.jpg);
         background-position: bottom center;
     }

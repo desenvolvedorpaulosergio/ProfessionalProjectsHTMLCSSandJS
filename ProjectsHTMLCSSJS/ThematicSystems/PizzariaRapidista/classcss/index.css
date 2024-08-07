@@ -15,6 +15,7 @@
     --cor-letra5: red;
     --cor-fundo-transparencia: '';
     --cor-hr: #ffce1c93;
+    --cor-transparencia-form: #ffffff54;
 }
 
 @font-face {
@@ -87,14 +88,14 @@
 }
 
 
-/* Estilos Section */
+/* Estilos Section Parte 1*/
 
 
-section{
+#estilo-parte1{
     background: black url(../resource/imgs/background-screen1.jpg) center center no-repeat;
     background-size: cover;
     padding: 30px;
-
+    
     display: flex;
     align-items: flex-end;
     justify-content: left;
@@ -102,13 +103,55 @@ section{
 }
 
 .estilo-elemento-padrao{
-    border: 2px solid red;
     border-radius: 20px;
     background: white;
-    max-width: 300px;
+    width: 300px;
     padding: 15px;
-    height: 400px;
+    height: 380px;
     float: right;
+}
+
+#estilo-especifico-form{
+    background: var(--cor-transparencia-form);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.estilo-input-padrao{
+    border: none;
+    border-bottom: 2px solid white;
+    background: #d8d8d89c;
+    color: black;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 15px auto;
+    width: 90%;
+}
+
+#estilo-especifico-form > div{
+    text-align: center;
+}
+
+#estilo-botao-enviar{
+    border: 2px solid var(--cor-borda-navsobre);
+    border-radius: 30px;
+    margin-left: auto;
+    padding: 1px 30px;
+    transition: 300ms;
+}
+
+#estilo-especifico-div{
+    margin: 0px 0px 0px 20px;
+    background: transparent;
+    text-align: center;
+    overflow: hidden;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
 }
 
 .nomelogo{
@@ -128,25 +171,20 @@ section{
 }
 
 #estilo-numero-telefone{
-    font: normal bold 25px 'Open-Sans';
+    font: normal bold 30px 'Open-Sans';
     color: var(--cor-letra5);
 }
 
 .estilo-elemento-padrao > hr{
     border: 1px solid var(--cor-hr);
+    margin: 20px 0px;
 }
 
 .estilo-elemento-padrao > h2{
     color: white;
 }
 
-#estilo-texto{
-    font: normal normal 1em 'fonte-texto';
-}
-
-#estilo-especifico-div{
-    background: transparent;
-    text-align: center;
-    overflow: hidden;
-    /* border: none; */
+#estilo-texto, #estilo-visualizar-senha{
+    font: normal normal 1.1em 'fonte-texto';
+    color: white;
 }

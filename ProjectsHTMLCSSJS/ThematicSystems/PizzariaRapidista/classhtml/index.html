@@ -27,10 +27,24 @@
             <a class="opcoes" href="#"><small>Sobre</small></a>
         </nav>
     </header>
-    <section>
-
-        <form class="estilo-elemento-padrao">
-    
+    <section id="estilo-parte1">
+        <form class="estilo-elemento-padrao" id="estilo-especifico-form" autocomplete="on">
+            <div>
+                <label for="email">
+                    <input type="email" name="email" id="email" class="estilo-input-padrao" placeholder="email" required minlength="10">
+                </label>
+                <label for="senha">
+                    <input type="password" name="senha" id="senha" class="estilo-input-padrao" placeholder="senha" required minlength="8">
+                </label>
+                <div style="text-align: justify;">  
+                    <br>
+                    &nbsp;
+                    <input type="checkbox" name="visualizar-senha" id="visualizar-senha"> 
+                    <span id="estilo-visualizar-senha">Visualizar Senha</span> 
+                    <br> <br> <br> <br>
+                </div>
+                <button id="estilo-botao-enviar">Enviar</button>
+            </div>
         </form>
         <div class="estilo-elemento-padrao" id="estilo-especifico-div">
             <h1>
@@ -50,7 +64,6 @@
                 <span id="estilo-numero-telefone">+ 55 (88) 01234-5678</span>
             </h2>
         </div>
-
     </section>
 </body>
 </html>
