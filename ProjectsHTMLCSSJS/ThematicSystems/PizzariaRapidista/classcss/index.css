@@ -93,7 +93,7 @@
 section{
     background: black url(../resource/imgs/background-screen1.jpg) center center no-repeat;
     background-size: cover;
-    height: 78vh;
+    padding: 30px;
 
     display: flex;
     align-items: flex-end;
@@ -103,13 +103,50 @@ section{
 
 .estilo-elemento-padrao{
     border: 2px solid red;
+    border-radius: 20px;
     background: white;
-    padding: 10px;
-    width: 280px;
+    max-width: 300px;
+    padding: 15px;
+    height: 400px;
     float: right;
 }
 
 .nomelogo{
-    font: normal normal 2em 'fonte-titulo';
+    font: normal normal 35px 'fonte-titulo';
 }
 
+#estilo-nome1{
+    color: var(--cor-letra3);
+}
+
+#estilo-nome2{
+    color: var(--cor-letra5);
+}
+
+#telefone{
+    width: 25px;
+}
+
+#estilo-numero-telefone{
+    font: normal bold 25px 'Open-Sans';
+    color: var(--cor-letra5);
+}
+
+.estilo-elemento-padrao > hr{
+    border: 1px solid var(--cor-hr);
+}
+
+.estilo-elemento-padrao > h2{
+    color: white;
+}
+
+#estilo-texto{
+    font: normal normal 1em 'fonte-texto';
+}
+
+#estilo-especifico-div{
+    background: transparent;
+    text-align: center;
+    overflow: hidden;
+    /* border: none; */
+}
