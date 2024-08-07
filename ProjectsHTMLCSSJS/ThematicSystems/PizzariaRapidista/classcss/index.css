@@ -120,15 +120,16 @@
 }
 
 .estilo-input-padrao{
+    width: 90%;
     border: none;
-    border-bottom: 2px solid white;
-    background: #d8d8d89c;
-    color: black;
     padding: 5px;
+    margin: 15px auto;
+    background: #d8d8d89c;
+    color: var(--cor-letra1);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    margin: 15px auto;
-    width: 90%;
+    border-bottom: 2px solid white;
+    font: italic normal 18px 'fonte-texto';
 }
 
 #estilo-especifico-form > div{
@@ -137,10 +138,16 @@
 
 #estilo-botao-enviar{
     border: 2px solid var(--cor-borda-navsobre);
+    font: normal normal 22px 'fonte-titulo';
+    color: var(--cor-letra1);
+    background: transparent;
     border-radius: 30px;
-    margin-left: auto;
-    padding: 1px 30px;
+    padding: 8px 20%;
     transition: 300ms;
+}
+
+#estilo-botao-enviar:hover{
+    background: var(--cor-borda-navsobre);
 }
 
 #estilo-especifico-div{
