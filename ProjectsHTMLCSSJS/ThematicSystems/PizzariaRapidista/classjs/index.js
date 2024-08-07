@@ -19,3 +19,14 @@ function largurabory(){
         }
     })
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('eventosenha').addEventListener('change', function() {
+        let senha = document.getElementById('senha');
+        if (this.checked) {
+            senha.type = 'text';
+        } else {
+            senha.type = 'password';
+        }
+    });
+})
