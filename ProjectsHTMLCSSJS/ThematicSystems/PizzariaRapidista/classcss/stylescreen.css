@@ -12,7 +12,7 @@
     }
 }
 
-@media screen and (max-width: 562px) {
+@media screen and (max-width: 565px) {
     #estilo-icone-navegador{
         display: block;
         margin: auto;
@@ -40,6 +40,11 @@
     #estilo-navegador > a:last-child{
         padding: 0px 30%;
         margin: 0;
+    }
+
+    section{
+        background-image: url(../resource/imgs/background-screen1portrait.jpg);
+        background-position: bottom center;
     }
 
 }

@@ -86,8 +86,30 @@
     color: var(--cor-letra2);
 }
 
+
+/* Estilos Section */
+
+
 section{
     background: black url(../resource/imgs/background-screen1.jpg) center center no-repeat;
     background-size: cover;
     height: 78vh;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    flex-flow: row wrap-reverse;
 }
+
+.estilo-elemento-padrao{
+    border: 2px solid red;
+    background: white;
+    padding: 10px;
+    width: 280px;
+    float: right;
+}
+
+.nomelogo{
+    font: normal normal 2em 'fonte-titulo';
+}
+
