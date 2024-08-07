@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 740px) {
     #estilo-navegador > a{
-        font-size: 18px;
+        font-size: 20px;
     }
     #estilo-logo{
         width: 75px;
@@ -10,6 +10,20 @@
     #estilo-navegador > a:last-child{
         padding: 1px 15px;
     }
+
+    #estilo-parte1{
+        padding: 0%;
+    }
+
+    #estilo-especifico-div, #estilo-especifico-form{
+        margin-left: 0;
+        margin: auto;
+    }
+
+    #estilo-especifico-div{
+        height: 280px;
+    }
+
 }
 
 @media screen and (max-width: 565px) {
@@ -48,4 +62,13 @@
         background-image: url(../resource/imgs/background-screen1portrait.jpg);
         background-position: bottom center;
     }
+
+    .nomelogo{
+        font-size: 8.5vw;
+    }
+
+    #estilo-numero-telefone{
+        font-size: 6vw;
+    }
+
 }
