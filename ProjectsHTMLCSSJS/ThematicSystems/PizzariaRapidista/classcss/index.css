@@ -85,3 +85,9 @@
 #estilo-icone-navegador:hover{
     color: var(--cor-letra2);
 }
+
+section{
+    background: black url(../resource/imgs/background-screen1.jpg) center center no-repeat;
+    background-size: cover;
+    height: 78vh;
+}
