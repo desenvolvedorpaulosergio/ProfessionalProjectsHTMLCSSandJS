@@ -207,11 +207,11 @@
 }
 
 #estilo-servicos{
-    padding: 60px 15px;
-    display: flex;
+    justify-content: center;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: center;
+    padding: 60px 15px;
+    display: flex;
 }
 
 #estilo-especifico1{
