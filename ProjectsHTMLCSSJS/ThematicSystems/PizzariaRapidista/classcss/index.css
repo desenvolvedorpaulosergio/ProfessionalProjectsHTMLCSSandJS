@@ -207,7 +207,7 @@
 }
 
 #estilo-servicos{
-    padding: 15px;
+    padding: 60px 15px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -218,7 +218,6 @@
     padding: 40px 10px;
     line-height: 40px;
 }
-
 
 .estilo-card-sevico{
     text-align: center;
