@@ -193,3 +193,14 @@
     font: normal normal 1.1em 'fonte-texto';
     color: white;
 }
+
+/* Estilos Section Parte 2*/
+
+.estilo-mensagem{
+    font: normal normal 25px 'fonte-texto';
+    text-align: center;
+    color: var(--cor-letra1);
+    background: var(--cor-fundo-nav);
+    padding: 15px;
+    border: 2px solid var(--cor-borda-navsobre);
+}
