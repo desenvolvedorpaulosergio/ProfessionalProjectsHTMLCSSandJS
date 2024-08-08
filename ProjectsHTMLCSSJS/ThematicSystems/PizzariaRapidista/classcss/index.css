@@ -176,7 +176,7 @@
 }
 
 #estilo-numero-telefone{
-    font: normal bold 30px 'Open-Sans';
+    font: normal bold 25px 'fonte-texto';
     color: var(--cor-letra5);
 }
 
@@ -197,10 +197,20 @@
 /* Estilos Section Parte 2*/
 
 .estilo-mensagem{
-    font: normal normal 25px 'fonte-texto';
-    text-align: center;
-    color: var(--cor-letra1);
-    background: var(--cor-fundo-nav);
-    padding: 15px;
     border: 2px solid var(--cor-borda-navsobre);
+    font: normal normal 25px 'fonte-texto';
+    background: var(--cor-fundo-nav);
+    color: var(--cor-letra1);
+    text-align: center;
+    padding: 15px;
+
+}
+
+#estilo-especifico1{
+    padding: 40px 10px;
+    line-height: 40px;
+}
+
+#estilo-servicos{
+    height: 300px;
 }
