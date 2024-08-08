@@ -13,7 +13,8 @@
     --cor-letra3: #e25905;
     --cor-letra4: #f98c08;
     --cor-letra5: red;
-    --cor-fundo-transparencia: '';
+    --cor-letra6: #5b0f01;
+    --cor-fundo-icone-card: #D9D9D9;
     --cor-hr: #ffce1c93;
     --cor-transparencia-form: #ffffff54;
 }
@@ -203,7 +204,14 @@
     color: var(--cor-letra1);
     text-align: center;
     padding: 15px;
+}
 
+#estilo-servicos{
+    padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 #estilo-especifico1{
@@ -211,6 +219,26 @@
     line-height: 40px;
 }
 
-#estilo-servicos{
-    height: 300px;
+
+.estilo-card-sevico{
+    text-align: center;
+    padding: 10px 20px;
+    width: 350px;
+}
+
+.estilo-card-sevico > h1{
+    font: normal normal 25px 'fonte-titulo';
+    color: var(--cor-letra3);
+}
+
+.estilo-card-sevico > p{
+    font: normal normal 15px 'fonte-texto';
+    color: var(--cor-letra6);
+}
+
+.estilo-icon-card{
+    background: var(--cor-fundo-icone-card);
+    border-radius: 30px;
+    padding: 8px;
+    width: 50px;
 }
