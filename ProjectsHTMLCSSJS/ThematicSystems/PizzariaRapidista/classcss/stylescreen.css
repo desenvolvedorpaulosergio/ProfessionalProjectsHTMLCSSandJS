@@ -41,15 +41,15 @@
 
 @media screen and (max-width: 565px) {
     #estilo-icone-navegador{
+        text-align: center;
         display: block;
         margin: auto;
-        text-align: center;
     }
 
     #estilo-navegador{
-        align-items: center;
         flex-flow: column nowrap;
         vertical-align: baseline;
+        align-items: center;
         text-align: center;
     }
 
@@ -86,13 +86,12 @@
 
     /* Responsividade Parte 2 de Section */
 
-
     .estilo-card-sevico{
         margin-bottom: 20px;
     }
 
     #estilo-especifico1, #estilo-especifico2{
-        font-size: 20px;
+        font-size: 16px;
     }
 
 }
