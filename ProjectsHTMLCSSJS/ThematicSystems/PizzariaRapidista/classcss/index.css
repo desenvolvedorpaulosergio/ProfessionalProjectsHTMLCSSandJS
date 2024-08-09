@@ -242,3 +242,21 @@
     padding: 8px;
     width: 50px;
 }
+
+/* Estilos Section Parte 3*/
+
+.estilo-parte3{
+    
+}
+
+.estilo-div{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.estilo-div{
+    border: 2px solid black;
+    width: 200px;
+    height: 345px;
+    border-radius: 20px;
+}
