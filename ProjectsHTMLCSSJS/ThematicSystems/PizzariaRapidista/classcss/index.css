@@ -252,7 +252,16 @@
 
 .estilo-div{
     border: 2px solid black;
-    width: 50%;
-    height: 660px;
+    padding: 20px;
     border-radius: 20px;
+    height: 660px;
+    width: 50%;
+}
+
+#estilo-texto{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    b
 }
