@@ -276,17 +276,17 @@
     border-radius: 20px;
     text-align: center;
     padding: 15px 10px;
-    height: 450px;
-    width: 320px;
+    height: 500px;
+    width: 370px;
 }
 
 #estilo-texto > div > h1{
-    font: normal normal 30px 'fonte-titulo';
+    font: normal normal 35px 'fonte-titulo';
     color: var(--cor-letra3);
 }
 
 #estilo-texto > div > p{
-    font: normal normal 15px 'fonte-texto';
+    font: normal normal 20px 'fonte-texto';
     color: var(--cor-letra3);
     text-align: justify;
     text-indent: 25px;
