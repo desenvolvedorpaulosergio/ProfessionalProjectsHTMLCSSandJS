@@ -252,10 +252,9 @@
 }
 
 .estilo-div{
-    border: 2px solid black;
+    flex-basis: 1200px;
     padding: 20px;
     height: 660px;
-    width: 50%;
 }
 
 #estilo-texto{
