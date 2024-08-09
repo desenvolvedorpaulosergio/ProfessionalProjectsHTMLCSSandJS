@@ -253,7 +253,6 @@
 .estilo-div{
     border: 2px solid black;
     padding: 20px;
-    border-radius: 20px;
     height: 660px;
     width: 50%;
 }
@@ -263,5 +262,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    b
+}
+
+#estilo-img{
+    background: black url(../resource/imgs/background-image-style2.jpg) left center no-repeat;
+    background-size: cover;
+}
+
+#estilo-texto > div{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 400px;
+    width: 285px;
 }
