@@ -245,18 +245,14 @@
 
 /* Estilos Section Parte 3*/
 
-.estilo-parte3{
-    
-}
-
-.estilo-div{
+#estilo-parte3{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
 }
 
 .estilo-div{
     border: 2px solid black;
-    width: 200px;
-    height: 345px;
+    width: 50%;
+    height: 660px;
     border-radius: 20px;
 }
