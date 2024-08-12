@@ -39,11 +39,6 @@
 
     /* Responsividade Parte 3 de Section */
 
-    .estilo-div{
-        display: flex;
-        flex-flow: column nowrap;
-    }
-
 }
 
 @media screen and (max-width: 565px) {
