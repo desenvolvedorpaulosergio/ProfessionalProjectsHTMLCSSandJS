@@ -288,12 +288,7 @@
     width: 50%;
 }
 
-
-#estilo-parte4 > #estilo-texto-pt3{
-
-}
-
 #estilo-parte4 > #estilo-imgfundo-pt3{
-    background-image: url(../resource/imgs/background-image-style2.jpg); 
+    background-image: url(../resource/imgs/background-image-style2.jpg);
     transform: scale(-1);
 }
