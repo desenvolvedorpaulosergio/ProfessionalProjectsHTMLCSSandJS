@@ -247,33 +247,28 @@
 /* Estilos Section Parte 3*/
 
 #estilo-parte3{
-    
-    height: 670px;
-
+    height: 680px;
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
     justify-content: flex-start;
+    align-items: center;
 }
 
 #estilo-texto-pt3{
-    background: var(--cor-fundo-texto);
-    border: 2px solid #ff00002d;
-    border-radius: 20px;
+    width: 370px;
+    padding: 15px;
     text-align: center;
-    padding: 20px;
-    height: 450px;
-    width: 350px;
-    margin: 0px 110px;
-
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background: var(--cor-fundo-texto);
+    border: 2px solid rgba(255, 0, 0, 0.329);
 }
 
 #estilo-texto-pt3 > h1{
     font: normal normal 30px 'fonte-titulo';
     color: var(--cor-letra3);
+    line-height: 80px;
 }
 
 #estilo-texto-pt3 > p{
@@ -281,12 +276,13 @@
     color: var(--cor-letra3);
     text-align: justify;
     text-indent: 25px;
-    line-height: 25px;
+    line-height: 40px;
 }
 
 #estilo-imgfundo-pt3{
-    background: transparent url(../resource/imgs/);
+    background: black url(../resource/imgs/background-image-style2.jpg) center center no-repeat;
+    background-size: cover;
     border: 2px solid black;
     height: 100%;
-    width: 50%;
+    width: 550px;
 }
