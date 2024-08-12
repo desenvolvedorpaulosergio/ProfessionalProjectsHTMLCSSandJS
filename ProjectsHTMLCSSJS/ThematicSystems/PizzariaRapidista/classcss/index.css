@@ -245,3 +245,48 @@
 }
 
 /* Estilos Section Parte 3*/
+
+#estilo-parte3{
+    padding: 0px 20px;
+    height: 670px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#estilo-texto-pt3{
+    background: var(--cor-fundo-texto);
+    border: 2px solid #ff00002d;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    height: 450px;
+    width: 350px;
+    margin-left: 20px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#estilo-texto-pt3 > h1{
+    font: normal normal 30px 'fonte-titulo';
+    color: var(--cor-letra3);
+}
+
+#estilo-texto-pt3 > p{
+    font: normal normal 15px 'fonte-texto';
+    color: var(--cor-letra3);
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 25px;
+}
+
+/* #estilo-imgfundo-pt3{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 450px;
+    width: 350px;
+} */
