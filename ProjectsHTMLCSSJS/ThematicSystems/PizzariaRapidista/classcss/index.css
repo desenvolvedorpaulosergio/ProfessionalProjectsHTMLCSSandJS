@@ -244,13 +244,14 @@
     width: 50px;
 }
 
-/* Estilos Section Parte 3*/
+/* Estilos Section Parte 3 e 4*/
 
 #estilo-parte3, #estilo-parte4{
     align-items: center;
     display: flex;
     height: 700px;
     width: 100%;
+    position: relative;
 
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -285,4 +286,14 @@
     background-size: cover;
     height: 100%;
     width: 50%;
+}
+
+
+#estilo-parte4 > #estilo-texto-pt3{
+
+}
+
+#estilo-parte4 > #estilo-imgfundo-pt3{
+    background-image: url(../resource/imgs/background-image-style2.jpg); 
+    transform: scale(-1);
 }
