@@ -40,8 +40,9 @@
     /* Responsividade Parte 3 de Section */
 
     #estilo-parte3{
-        height: 1000px;
         padding: 40px 0px;
+        height: 1000px;
+
         flex-flow: row wrap;
     }
 
@@ -50,7 +51,7 @@
     }
 
     #estilo-imgfundo-pt3{
-        background: transparent url(../resource/imgs/background-image-style2.jpg) center right fixed;
+        background: transparent url(../resource/imgs/background-image-style1.jpg) center right fixed;
         width: 100%;
         height: 52%;
     }
