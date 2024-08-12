@@ -247,6 +247,7 @@
 /* Estilos Section Parte 3*/
 
 #estilo-parte3{
+    width: 100%;
     height: 680px;
     display: flex;
     flex-flow: row wrap;
@@ -258,7 +259,7 @@
     width: 370px;
     padding: 15px;
     text-align: center;
-    margin-left: 20px;
+    margin: 0px auto;
     border-radius: 20px;
     border: 2px solid black;
     background: var(--cor-fundo-texto);
@@ -282,7 +283,6 @@
 #estilo-imgfundo-pt3{
     background: black url(../resource/imgs/background-image-style2.jpg) center center no-repeat;
     background-size: cover;
-    border: 2px solid black;
     height: 100%;
-    width: 550px;
+    width: 50%;
 }
