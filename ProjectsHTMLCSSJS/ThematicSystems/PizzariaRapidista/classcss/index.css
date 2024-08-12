@@ -248,11 +248,11 @@
 
 #estilo-parte3{
     width: 100%;
-    height: 680px;
+    height: 700px;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
     align-items: center;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
 }
 
 #estilo-texto-pt3{
@@ -263,7 +263,7 @@
     border-radius: 20px;
     border: 2px solid black;
     background: var(--cor-fundo-texto);
-    border: 2px solid rgba(255, 0, 0, 0.329);
+    border: 2px solid #ff000054;
 }
 
 #estilo-texto-pt3 > h1{

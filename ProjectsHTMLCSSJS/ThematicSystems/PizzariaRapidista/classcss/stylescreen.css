@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 750px) {
     #estilo-navegador > a{
         font-size: 20px;
     }
@@ -38,6 +38,22 @@
     }
 
     /* Responsividade Parte 3 de Section */
+
+    #estilo-parte3{
+        height: 1000px;
+        padding: 40px 0px;
+        flex-flow: row wrap;
+    }
+
+    #estilo-texto-pt3{
+        margin-bottom: 40px;
+    }
+
+    #estilo-imgfundo-pt3{
+        background: transparent url(../resource/imgs/background-image-style2.jpg) center right fixed;
+        width: 100%;
+        height: 52%;
+    }
 
 }
 
