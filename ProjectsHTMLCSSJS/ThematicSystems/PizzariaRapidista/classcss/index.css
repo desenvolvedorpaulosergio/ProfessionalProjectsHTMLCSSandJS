@@ -246,7 +246,7 @@
 
 /* Estilos Section Parte 3*/
 
-#estilo-parte3{
+#estilo-parte3, #estilo-parte4{
     align-items: center;
     display: flex;
     height: 700px;
@@ -269,7 +269,7 @@
 #estilo-texto-pt3 > h1{
     font: normal normal 30px 'fonte-titulo';
     color: var(--cor-letra3);
-    line-height: 80px;
+    line-height: 50px;
 }
 
 #estilo-texto-pt3 > p{
