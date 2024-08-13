@@ -310,13 +310,47 @@
     border: none;
     width: 315px;
     height: 410px;
-    border-radius: 20px;
     padding: 20px;
+    text-align: center;
     background: white;
+    border-radius: 20px;
     border-bottom: 10px solid #e1e1e1;
-    
+
     display: flex;
     align-items: center;
     flex-flow: column wrap;
-    justify-content: center;
+}
+
+.estilo-div-pt5 > h1{
+    font: normal bold 40px 'fonte-titulo';
+    color: var(--cor-letra6);
+    line-height: 100px;
+}
+
+.estilo-div-pt5 > p{
+    font: normal normal 15px 'fonte-texto';
+    color: var(--cor-letra3);
+    text-align: justify;
+    line-height: 25px;
+}
+
+.estilo-div-pt5 > button{
+    border: 2px solid var(--cor-borda-navsobre);
+    font: normal normal 22px 'fonte-titulo';
+    background: var(--cor-fundo-nav);
+    color: var(--cor-letra1);
+    border-radius: 30px;
+    padding: 8px 20%;
+    margin: 20px 0px;
+
+    transition: 300ms;
+}
+
+.estilo-div-pt5 > button:hover{
+    transform: scale(1.01);
+}
+
+.estilo-div-pt5 > button:active{
+    background: var(--cor-borda-navsobre);
+    border-color: var(--cor-fundo-nav);
 }
