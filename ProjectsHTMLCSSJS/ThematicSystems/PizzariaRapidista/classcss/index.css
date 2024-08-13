@@ -292,3 +292,25 @@
     background-image: url(../resource/imgs/background-image-style2.jpg);
     transform: scale(-1);
 }
+
+/* Estilos Section Parte 5*/
+
+#estilo-parte5{
+    background: transparent url(../resource/imgs/background-screen2.jpg) center center no-repeat;
+    background-size: cover;
+    height: 730px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.estilo-div-pt5{
+    border-bottom: 10px solid #e1e1e1;
+    border-radius: 20px;
+    background: white;
+    height: 410px;
+    width: 315px;
+    border: none;
+}
