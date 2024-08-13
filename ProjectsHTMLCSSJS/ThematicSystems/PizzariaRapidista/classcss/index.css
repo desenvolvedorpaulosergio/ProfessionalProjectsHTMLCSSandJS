@@ -369,3 +369,8 @@
 .estilo-div-pt5 > span{
     padding: 0px 10px;
 }
+
+#config-img2{
+    background: transparent url(../resource/imgs/pizza2.png) center center no-repeat;
+    background-size: cover;
+}
