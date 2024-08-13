@@ -306,6 +306,10 @@
     justify-content: space-around;
 }
 
+.estilo-parte5 > div{
+    flex: auto;
+}
+
 .estilo-div-pt5{
     border: none;
     width: 315px;

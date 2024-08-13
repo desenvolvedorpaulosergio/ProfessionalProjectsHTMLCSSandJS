@@ -65,6 +65,10 @@
         background: transparent url(../resource/imgs/background-image-style2.jpg) center center no-repeat fixed;
         transform: none;
     }
+
+    /* Responsividade Parte 4 de Section */
+
+
 }
 
 @media screen and (max-width: 565px) {
@@ -121,5 +125,4 @@
     #estilo-especifico1, #estilo-especifico2{
         font-size: 16px;
     }
-
 }
