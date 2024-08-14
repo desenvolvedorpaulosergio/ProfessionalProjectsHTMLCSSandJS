@@ -359,7 +359,7 @@
     border-color: var(--cor-fundo-nav);
 }
 
-.config-img{
+.config-img, #config-img3, #config-img4{
     background: transparent url(../resource/imgs/pizza1.png) center center no-repeat;
     background-size: cover;
     width: 100%;
@@ -374,7 +374,20 @@
     padding: 0px 10px;
 }
 
+/* Estilos Section Parte 5*/
+
+
 #config-img2{
     background: transparent url(../resource/imgs/pizza2.png) center center no-repeat;
+    background-size: cover;
+}
+
+#config-img3{
+    background: transparent url(../resource/imgs/pizza3.png) center center no-repeat;
+    background-size: cover;
+}
+
+#config-img4{
+    background: transparent url(../resource/imgs/pizza4.png) center center no-repeat;
     background-size: cover;
 }
