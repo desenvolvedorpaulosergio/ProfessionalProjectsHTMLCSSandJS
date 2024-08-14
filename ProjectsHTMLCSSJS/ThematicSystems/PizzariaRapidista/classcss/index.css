@@ -298,8 +298,7 @@
 #estilo-parte5, #estilo-parte6{
     background: transparent url(../resource/imgs/background-screen2.jpg) center center no-repeat;
     background-size: cover;
-    height: 730px;
-    
+    padding: 120px 0px; 
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -389,5 +388,10 @@
 
 #config-img4{
     background: transparent url(../resource/imgs/pizza4.png) center center no-repeat;
+    background-size: cover;
+}
+
+#estilo-parte6{
+    background: transparent url(../resource/imgs/background-screen3.jpg) center center no-repeat;
     background-size: cover;
 }
