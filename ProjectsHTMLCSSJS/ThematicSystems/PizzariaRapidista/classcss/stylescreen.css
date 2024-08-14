@@ -66,8 +66,11 @@
         transform: none;
     }
 
-    /* Responsividade Parte 4 de Section */
+    /* Responsividade Parte 5 de Section */
 
+    .estilo-div-pt5{
+        margin: 20px 0px;
+    }
 
 }
 
@@ -126,7 +129,9 @@
         font-size: 16px;
     }
 
-    /* Responsividade Parte 2 de Section */
-
+    /* Responsividade Parte 6 de Section */
+    .estilo-div-pt5{
+        margin: 30px 0px;
+    }
     
 }
