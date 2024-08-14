@@ -295,7 +295,7 @@
 
 /* Estilos Section Parte 5*/
 
-#estilo-parte5{
+#estilo-parte5, #estilo-parte6{
     background: transparent url(../resource/imgs/background-screen2.jpg) center center no-repeat;
     background-size: cover;
     height: 730px;
