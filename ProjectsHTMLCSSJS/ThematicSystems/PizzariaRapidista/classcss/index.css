@@ -299,6 +299,7 @@
     background: transparent url(../resource/imgs/background-screen2.jpg) center center no-repeat;
     background-size: cover;
     padding: 120px 0px; 
+
     display: flex;
     flex-flow: row wrap;
     align-items: center;
