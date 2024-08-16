@@ -399,16 +399,31 @@
     /* Responsividade Parte 7 de Footer */
 
     #estilo-parte7{
-        padding: 20px;
-        height: 900px;
-        text-align: center;
+        height: 700px;
     }
 
     .estilo-div-pt7{
+        height: 350px;
+    }
+    
+    #estilo-especifico-div7{
         background-image: linear-gradient(180deg, #0000004d, white, white);
+        padding: 0;
+        margin: 0;
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+    }
+
+    #estilo-especifico-div8{
+        border: 2px solid var(--cor-borda-navsobre);
+        background-color: var(--cor-fundo-nav);
+        padding: 30px 10px;
     }
 
     #perfil{
-        border-radius: 100%;
         background: #E1E1E1;
+        border-radius: 100%;
+        margin: auto;
     }
