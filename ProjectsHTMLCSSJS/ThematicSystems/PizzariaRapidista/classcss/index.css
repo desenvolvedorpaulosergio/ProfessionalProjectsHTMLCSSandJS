@@ -420,6 +420,21 @@
         border: 2px solid var(--cor-borda-navsobre);
         background-color: var(--cor-fundo-nav);
         padding: 30px 10px;
+        text-align: center;
+        margin: 40px 0px;
+    }
+
+    #estilo-especifico-div8 > h1{
+        font: normal normal 40px 'fonte-titulo';
+        color: var(--cor-letra3);
+        line-height: 70px;
+    }
+    
+    #estilo-especifico-div8 > p{
+        font: normal normal 18px 'fonte-texto';
+        color: var(--cor-letra1);
+        text-align: center;
+        line-height: 25px;
     }
 
     #perfil{
