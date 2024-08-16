@@ -395,3 +395,20 @@
     background: transparent url(../resource/imgs/background-screen3.jpg) center center no-repeat;
     background-size: cover;
 }
+
+    /* Responsividade Parte 7 de Footer */
+
+    #estilo-parte7{
+        padding: 20px;
+        height: 900px;
+        text-align: center;
+    }
+
+    .estilo-div-pt7{
+        background-image: linear-gradient(180deg, #0000004d, white, white);
+    }
+
+    #perfil{
+        border-radius: 100%;
+        background: #E1E1E1;
+    }
