@@ -133,4 +133,19 @@
     .estilo-div-pt5{
         margin: 30px 0px;
     }
+
+    /* Responsividade Parte 6 de Footer */
+    #estilo-especifico-div8 > h1{
+        font-size: 30px;
+    }
+
+    #estilo-especifico-div8 > p{
+        font-size: 15px;
+    }
+
+    #perfil{
+        width: 60vw;
+        margin-top: 60px;
+
+    }
 }

@@ -412,27 +412,27 @@
         background-color: var(--cor-fundo-nav);
         padding: 30px 10px;
         text-align: center;
-        margin: 40px 0px;
+        margin: 60px 0px;
     }
 
     #estilo-especifico-div8 > h1{
         font: normal normal 40px 'fonte-titulo';
         color: var(--cor-letra3);
-        line-height: 70px;
+        line-height: 40px;
     }
     
     #estilo-especifico-div8 > p{
         font: normal normal 18px 'fonte-texto';
         color: var(--cor-letra1);
         text-align: center;
-        line-height: 25px;
+        line-height: 20px;
     }
 
     #perfil{
         background: #E1E1E1;
         border-radius: 100%;
-        margin-top: 40px;
         margin: auto;
+        margin-top: 30px;
     }
 
     #estilo-parte7{
