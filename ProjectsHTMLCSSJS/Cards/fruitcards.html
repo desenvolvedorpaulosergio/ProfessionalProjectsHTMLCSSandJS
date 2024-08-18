@@ -31,12 +31,36 @@
         .estilos-container-card > div{
             background: transparent url(https://cdn.pixabay.com/photo/2016/04/15/08/04/strawberry-1330459_1280.jpg) top left no-repeat;
             background-size: cover;
+            margin-bottom: 15px;
             height: 50%;
         }
 
-        .estilos-container-card > h1{
-            font: bold normal 28px 'Arial';
-            line-height: 20px;
+        .estilo-titulo{
+            font: bold normal 30px 'arial';
+            line-height: 40px;
+        }
+
+        .estilo-descricao{
+            font: normal normal 18px 'arial';
+            color: #0000006c;
+            line-height: 30px;
+        }
+
+        .estilo-preco{
+            font-family: "arial";
+        }
+
+        .estilos-container-card > button{
+            font: normal normal 20px 'arial';
+            background: #3693FF;
+            border-radius: 5px;
+            padding: 10px 50px;
+            color: white;
+            border: none;
+        }
+
+        .estilos-container-card > button:hover{
+            background: #2778d4;
         }
 
     </style>
@@ -44,10 +68,10 @@
 <body>
     <div class="estilos-container-card">
         <div></div>
-        <h1>Morango</h1>
-        <span class="estilo-descricao">Descrição</span> <br>
-        <span class="estilo-preco">5,50R$</span> <br> <br>
-        <button>Click aqui</button>
+        <span class="estilo-titulo">Morango</span> <br>
+        <span class="estilo-descricao">Frutas vermelhas</span> <br>
+        <span class="estilo-preco">R$ 5,50</span> <br>
+        <button>Saiba Mais</button>
     </div>
     <!-- <div class="estilos-container-card"></div>
     <div class="estilos-container-card"></div> -->
