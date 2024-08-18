@@ -28,21 +28,24 @@
         }
 
         .estilos-container-card > div{
-            background: transparent url(https://cdn.pixabay.com/photo/2016/04/15/08/04/strawberry-1330459_1280.jpg) top left no-repeat;
-            background-size: cover;
             margin-bottom: 15px;
             height: 50%;
+            transition: 300ms;
+        }
+
+        .estilos-container-card > div:hover{
+            transform: scale(1.05);
         }
 
         .estilo-titulo{
             font: bold normal 30px 'arial';
-            line-height: 40px;
         }
 
         .estilo-descricao{
             font: normal normal 18px 'arial';
             color: #0000006c;
             line-height: 30px;
+            line-height: 35px;
         }
 
         .estilo-preco{
@@ -62,11 +65,26 @@
             background: #2778d4;
         }
 
+        #estilo-fundo-imagem1{
+            background: transparent url(https://cdn.pixabay.com/photo/2016/04/15/08/04/strawberry-1330459_1280.jpg) top left no-repeat;
+            background-size: cover;
+        }
+
+        #estilo-fundo-imagem2{
+            background: transparent url(https://cdn.pixabay.com/photo/2017/06/12/14/53/watermelon-2395804_1280.jpg) top left no-repeat;
+            background-size: cover;
+        }
+
+        #estilo-fundo-imagem3{
+            background: transparent url(https://cdn.pixabay.com/photo/2021/01/05/05/30/grapes-5889697_1280.jpg) top left no-repeat;
+            background-size: cover;
+        }
+
     </style>
 </head>
 <body>
     <div class="estilos-container-card">
-        <div></div>
+        <div id="estilo-fundo-imagem1"></div>
         <span class="estilo-titulo">Morango</span> <br>
         <span class="estilo-descricao">Frutas vermelhas</span> <br>
         <span class="estilo-preco">R$ 5,50</span> <br>
@@ -74,18 +92,18 @@
     </div>
 
     <div class="estilos-container-card">
-        <div></div>
-        <span class="estilo-titulo">Morango</span> <br>
+        <div id="estilo-fundo-imagem2"></div>
+        <span class="estilo-titulo">Melancia</span> <br>
         <span class="estilo-descricao">Frutas vermelhas</span> <br>
-        <span class="estilo-preco">R$ 5,50</span> <br>
+        <span class="estilo-preco">R$ 4,30</span> <br>
         <button>Saiba Mais</button>
     </div>
 
     <div class="estilos-container-card">
-        <div></div>
-        <span class="estilo-titulo">Morango</span> <br>
+        <div id="estilo-fundo-imagem3"></div>
+        <span class="estilo-titulo">Uva</span> <br>
         <span class="estilo-descricao">Frutas vermelhas</span> <br>
-        <span class="estilo-preco">R$ 5,50</span> <br>
+        <span class="estilo-preco">R$ 7,90</span> <br>
         <button>Saiba Mais</button>
     </div>
     
