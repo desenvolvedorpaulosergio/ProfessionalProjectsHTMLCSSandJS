@@ -18,21 +18,36 @@
         }
 
         .estilos-container-card{
-            border: 2px solid black;
-            
+            box-shadow: 3px 3px 10px #0000005b;
             border-radius: 20px;
+            text-align: center;
+            overflow: hidden;
             height: 350px;
             width: 250px;
+            margin: auto;
+            padding: 0%;
+        }
+
+        .estilos-container-card > div{
+            background: transparent url(https://cdn.pixabay.com/photo/2016/04/15/08/04/strawberry-1330459_1280.jpg) top left no-repeat;
+            background-size: cover;
+            height: 50%;
+        }
+
+        .estilos-container-card > h1{
+            font: bold normal 28px 'Arial';
+            line-height: 20px;
         }
 
     </style>
 </head>
 <body>
     <div class="estilos-container-card">
-        <img src="" alt="morango" class="estilo-img">
-        <h1 class="estilo-nome-fruta">Morango</h1>
-        <span class="estilo-descricao">Descrição do Produto</span>
-        <span class="estilo-preco"></span>
+        <div></div>
+        <h1>Morango</h1>
+        <span class="estilo-descricao">Descrição</span> <br>
+        <span class="estilo-preco">5,50R$</span> <br> <br>
+        <button>Click aqui</button>
     </div>
     <!-- <div class="estilos-container-card"></div>
     <div class="estilos-container-card"></div> -->
