@@ -54,3 +54,7 @@ nav > img{
 nav > #estilo-especifico-opcao{
     margin-right: auto;
 }
+
+#estilo-equiv{
+    display: none;
+}
