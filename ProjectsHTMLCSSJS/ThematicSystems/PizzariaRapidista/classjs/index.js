@@ -1,3 +1,5 @@
+//Configurações JavaScript part 1:
+
 function eventonavegador(){
     let opcoes = window.document.querySelectorAll('.opcoes')
     opcoes.forEach(function(opcoes){

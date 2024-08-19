@@ -1,10 +1,11 @@
 @charset 'UTF-8';
 
+    /* Configurações de Navegação do Projeto Pt1*/
+
 :root{
     --corfundonav: #000000;
     --corfundonav2: #383838;
     --corbordanav: #1e222e;
-
 
     --cor-letra1: #ffffff;
     --cor-letra2: #C0AC89;
@@ -58,4 +59,12 @@ nav > #estilo-especifico-opcao{
 
 #estilo-equiv{
     display: none;
+}
+
+/* Configurações do Projeto Pt2*/
+
+#section-project-pt2{
+    background: black url(../resource/imgs/home-img.jpeg) right bottom no-repeat;
+    background-size: cover;
+    height: 83.8vh;
 }
