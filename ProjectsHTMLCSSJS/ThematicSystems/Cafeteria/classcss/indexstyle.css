@@ -23,6 +23,7 @@ nav{
     background: var(--corfundonav);
     padding: 10px 40px;
     margin: 0;
+    transition: 300ms;
 
     display: flex;
     flex-flow: row wrap;
@@ -46,6 +47,8 @@ nav > img:hover, nav > a:hover, nav > span:hover{
 
 nav > img{
     margin-right: auto;
+    width: 100px;
+    transition: 300ms;
 }
 
 nav > #estilo-especifico-opcao{

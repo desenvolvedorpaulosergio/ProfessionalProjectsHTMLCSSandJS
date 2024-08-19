@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+
+@media screen and (max-width: 790px){
+
+    /* Configurações Respoinsiva de Navegação */
+    body{
+        background: blue;
+    }
+
+    nav{
+        padding: 10px 5px;
+    }
+
+    nav > img{
+        width: 75px;
+    }
+
+    nav > a, nav > span{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 642px){
+    /* Configurações Respoinsiva de Navegação */
+}
