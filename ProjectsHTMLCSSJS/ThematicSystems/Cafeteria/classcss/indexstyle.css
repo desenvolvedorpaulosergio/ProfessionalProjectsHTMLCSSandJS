@@ -100,11 +100,12 @@ nav > #estilo-especifico-opcao{
     color: var(--cor-letra1);
     padding: 10px 20px;
     border: none;
-    transition: 200ms;
+    transition: 100ms;
 }
 
 #section-project-pt2 > div > button:hover{
     background: #a0825e;
+    cursor: pointer;
 }
 
 #section-project-pt2 > div > button:active{

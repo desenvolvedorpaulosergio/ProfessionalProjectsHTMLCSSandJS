@@ -15,6 +15,18 @@
     nav > a, nav > span{
         font-size: 15px;
     }
+
+    /* Configurações Respoinsiva do Projeto Pt2*/
+    
+    #section-project-pt2 > div{
+        margin: auto;
+    }
+
+    #section-project-pt2{
+        background: black url(../resource/imgs/home-img.jpeg) center center no-repeat;
+        background-size: cover;
+    }
+
 }
 
 @media screen and (max-width: 642px){
