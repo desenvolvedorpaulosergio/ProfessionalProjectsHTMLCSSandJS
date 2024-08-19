@@ -2,11 +2,12 @@
 
 :root{
     --corfundonav: #000000;
-    --corbordanav: #090B0F;
+    --corbordanav: #1e222e;
 
 
     --cor-letra1: #ffffff;
     --cor-letra2: #C0AC89;
+    --cor-letra3: #ffffff98;
 
     --font-letra1: arial;
 
@@ -15,4 +16,38 @@
 body{
     margin: auto;
     padding: 0%;
+}
+
+nav{
+    border: 2px solid var(--corbordanav);
+    background: var(--corfundonav);
+    padding: 10px 40px;
+    margin: 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+nav > a, nav > span{
+    font: normal normal 18px var(--font-letra1);
+    color: var(--cor-letra1);
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 300ms;
+}
+
+nav > img:hover, nav > a:hover, nav > span:hover{
+    text-decoration: underline;
+    color: var(--cor-letra3);
+    cursor: pointer;
+}
+
+
+nav > img{
+    margin-right: auto;
+}
+
+nav > #estilo-especifico-opcao{
+    margin-right: auto;
 }
