@@ -13,11 +13,16 @@
 
     --font-letra1: arial;
 
+    --cor-fundo-botao: #C3A074;
+}
+
+*{
+    margin: 0;
+    padding: 0%;    
 }
 
 body{
     margin: auto;
-    padding: 0%;
 }
 
 nav{
@@ -67,4 +72,41 @@ nav > #estilo-especifico-opcao{
     background: black url(../resource/imgs/home-img.jpeg) right bottom no-repeat;
     background-size: cover;
     height: 83.8vh;
+
+    display: flex;
+}
+
+#section-project-pt2 > div{
+    background: transparent;
+    margin: auto 0px;
+    padding: 25px;
+    width: 350px;
+}
+
+#section-project-pt2 > div > h1{
+    font: normal bold 40px var(--font-letra1);
+    color: var(--cor-letra1);
+}
+
+#section-project-pt2 > div > p{
+    font: normal normal 15px var(--font-letra1);
+    color: var(--cor-letra3);
+    line-height: 20px;
+}
+
+#section-project-pt2 > div > button{
+    font: normal normal 15px var(--font-letra1);
+    background: var(--cor-fundo-botao);
+    color: var(--cor-letra1);
+    padding: 10px 20px;
+    border: none;
+    transition: 200ms;
+}
+
+#section-project-pt2 > div > button:hover{
+    background: #a0825e;
+}
+
+#section-project-pt2 > div > button:active{
+    background: #3f3325;
 }
