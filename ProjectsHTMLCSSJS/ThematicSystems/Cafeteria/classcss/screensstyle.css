@@ -3,9 +3,6 @@
 @media screen and (max-width: 790px){
 
     /* Configurações Respoinsiva de Navegação */
-    body{
-        background: blue;
-    }
 
     nav{
         padding: 10px 5px;
@@ -21,19 +18,21 @@
 }
 
 @media screen and (max-width: 642px){
+
     /* Configurações Respoinsiva de Navegação */
     
     nav{
-        padding: 10px 5px;
-        flex-flow: column wrap;
-        padding: 10px 5px;
-        display: flex;
         text-align: center;
+        padding: 10px 5px;
+        padding: 10px 5px;
+
+        display: flex;
+        flex-flow: column wrap;
     }
 
     nav > img{
-        width: 75px;
         margin: auto;
+        width: 80px;
     }
 
     nav > #estilo-especifico-opcao{
@@ -41,12 +40,21 @@
     }
 
     nav > a, nav > img, .material-symbols-outlined{
+        font-size: 20px;
         display: none;
+    }
+
+    .material-symbols-outlined, .estilo-opcao-geral{
+        width: 90%;
+    }
+    
+    .material-symbols-outlined:hover, .estilo-opcao-geral:hover{
+        background: #383838;
     }
 
     #estilo-equiv{
         color: var(--cor-letra1);
-        font-size: 70px;
+        font-size: 80px;
         display: block;
         margin: auto;
     }
