@@ -22,9 +22,22 @@
 
 @media screen and (max-width: 642px){
     /* Configurações Respoinsiva de Navegação */
-
+    
     nav{
-        padding: 5px 0px;
+        padding: 10px 5px;
+        flex-flow: column wrap;
+        padding: 10px 5px;
+        display: flex;
+        text-align: center;
+    }
+
+    nav > img{
+        width: 75px;
+        margin: auto;
+    }
+
+    nav > #estilo-especifico-opcao{
+        margin-right: 0;
     }
 
     nav > a, nav > img, .material-symbols-outlined{
