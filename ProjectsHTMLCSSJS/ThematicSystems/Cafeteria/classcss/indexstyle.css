@@ -8,7 +8,7 @@
     --corbordanav: #1e222e;
 
     --cor-letra1: #ffffff;
-    --cor-letra2: #C0AC89;
+    --cor-letra2: #C3A074;
     --cor-letra3: #ffffff98;
 
     --font-letra1: arial;
@@ -111,4 +111,16 @@ nav > #estilo-especifico-opcao{
 
 #section-project-pt2 > div > button:active{
     background: #3f3325;
+}
+
+/* Configurações do Projeto Pt3*/
+
+#section-project-pt3 > h1{
+    font: normal normal 30px var(--font-letra1);
+    color: var(--cor-letra1);
+    text-align: center;
+}
+
+#style-display-divs-sectionpt3{
+    
 }
