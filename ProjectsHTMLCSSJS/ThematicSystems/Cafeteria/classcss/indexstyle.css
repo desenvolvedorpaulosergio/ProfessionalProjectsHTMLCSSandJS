@@ -122,5 +122,23 @@ nav > #estilo-especifico-opcao{
 }
 
 #style-display-divs-sectionpt3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.estilo-padraodiv-pt3{
+    border: 2px solid white;
+    height: 450px;
+    width: 550px;
+}
+
+#estilo-especifico-div1{
+    background: transparent url(../resource/imgs/about-img.jpeg) center center no-repeat;
+    background-size: cover;
+}
+
+#estilo-especifico-div1{
     
 }
