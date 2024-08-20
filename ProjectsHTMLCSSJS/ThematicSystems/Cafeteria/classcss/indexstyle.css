@@ -6,6 +6,7 @@
     --corfundonav: #000000;
     --corfundonav2: #383838;
     --corbordanav: #1e222e;
+    --cor-fundo-div: #0F1015;
 
     --cor-letra1: #ffffff;
     --cor-letra2: #C3A074;
@@ -95,7 +96,7 @@ nav > #estilo-especifico-opcao{
     line-height: 20px;
 }
 
-#section-project-pt2 > div > button{
+.estilo-padrao-botao{
     font: normal normal 15px var(--font-letra1);
     background: var(--cor-fundo-botao);
     color: var(--cor-letra1);
@@ -104,16 +105,17 @@ nav > #estilo-especifico-opcao{
     transition: 100ms;
 }
 
-#section-project-pt2 > div > button:hover{
+.estilo-padrao-botao:hover{
     background: #a0825e;
     cursor: pointer;
 }
 
-#section-project-pt2 > div > button:active{
+.estilo-padrao-botao:active{
     background: #3f3325;
 }
 
 /* Configurações do Projeto Pt3*/
+
 
 #section-project-pt3 > h1{
     font: normal normal 30px var(--font-letra1);
@@ -129,8 +131,7 @@ nav > #estilo-especifico-opcao{
 }
 
 .estilo-padraodiv-pt3{
-    border: 2px solid white;
-    height: 450px;
+    height: 480px;
     width: 550px;
 }
 
@@ -139,6 +140,23 @@ nav > #estilo-especifico-opcao{
     background-size: cover;
 }
 
-#estilo-especifico-div1{
-    
+#estilo-especifico-div2{
+    background: var(--cor-fundo-div);
+}
+
+#estilo-especifico-div2> h2{
+    font: normal bold 25px var(--font-letra1);
+    color: var(--cor-letra1);
+    padding-top: 25%;
+    padding-left: 20px;
+}
+
+#estilo-especifico-div2 > p{
+    font: normal normal 15px var(--font-letra1);
+    color: var(--cor-letra3);
+    padding-left: 20px;
+}
+
+#config-especifico{
+    margin-left: 20px;
 }
