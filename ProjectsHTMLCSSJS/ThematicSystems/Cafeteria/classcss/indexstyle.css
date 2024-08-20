@@ -6,7 +6,9 @@
     --corfundonav: #000000;
     --corfundonav2: #383838;
     --corbordanav: #1e222e;
+
     --cor-fundo-div: #0F1015;
+    --cor-borda-div: #ffffff71;
 
     --cor-letra1: #ffffff;
     --cor-letra2: #C3A074;
@@ -117,9 +119,10 @@ nav > #estilo-especifico-opcao{
 /* Configurações do Projeto Pt3*/
 
 
-#section-project-pt3 > h1{
+.estilo-padrao-titulo{
     font: normal normal 30px var(--font-letra1);
     color: var(--cor-letra1);
+    margin-bottom: 70px;
     text-align: center;
 }
 
@@ -162,3 +165,19 @@ nav > #estilo-especifico-opcao{
 }
 
 /* Configurações do Projeto Pt4*/
+
+#config-display-divpt4{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10%;
+}
+
+.estilo-padrao-divspt4{
+    border: 0.5px solid var(--cor-borda-div);
+    margin-bottom: 40px;
+    height: 380px;
+    width: 300px;
+}
