@@ -6,6 +6,7 @@
     --corfundonav: #000000;
     --corfundonav2: #383838;
     --corbordanav: #1e222e;
+    --corbordaspan: #383838;
 
     --cor-fundo-div: #0F1015;
     --cor-borda-div: #ffffff71;
@@ -215,7 +216,15 @@ nav > #estilo-especifico-opcao{
 }
 
 .material-symbols-display2{
-    border: 1px solid var(--cor-borda-div);
+    border: 1px solid white;
+    color: var(--cor-letra1);
     border-radius: 2px;
     padding: 10px;
+    transition: 300ms;
+}
+
+.material-symbols-display2:hover{
+    border-color: var(--corbordaspan);
+    color: var(--cor-letra2);
+    cursor: pointer;
 }
