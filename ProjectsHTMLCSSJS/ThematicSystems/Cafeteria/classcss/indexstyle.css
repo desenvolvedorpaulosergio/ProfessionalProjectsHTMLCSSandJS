@@ -213,3 +213,9 @@ nav > #estilo-especifico-opcao{
     height: 240px;
     width: 300px;
 }
+
+.material-symbols-display2{
+    border: 1px solid var(--cor-borda-div);
+    border-radius: 2px;
+    padding: 10px;
+}
