@@ -123,11 +123,10 @@ nav > #estilo-especifico-opcao{
 
 /* Configurações do Projeto Pt3*/
 
-
 .estilo-padrao-titulo{
     font: normal normal 30px var(--font-letra1);
     color: var(--cor-letra1);
-    margin-bottom: 70px;
+    line-height: 100px;
     text-align: center;
 }
 
@@ -193,4 +192,15 @@ nav > #estilo-especifico-opcao{
     font: normal normal 25px 'fonte-preco';
     color: var(--cor-letra1);
     line-height: 50px;
+}
+
+/* Configurações do Projeto Pt5*/
+
+#config-display-divpt5{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10%;
 }
