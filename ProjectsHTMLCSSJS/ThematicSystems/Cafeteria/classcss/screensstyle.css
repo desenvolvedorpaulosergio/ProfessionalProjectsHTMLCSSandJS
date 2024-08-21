@@ -26,6 +26,7 @@
         background: black url(../resource/imgs/home-img.jpeg) center center no-repeat;
         background-size: cover;
     }
+
 }
 
 @media screen and (max-width: 642px){
@@ -50,16 +51,16 @@
         margin-right: 0;
     }
 
-    nav > a, nav > img, nav > span{
+    nav > a, nav > img, .material-symbols-display{
         font-size: 20px;
         display: none;
     }
 
-    .material-symbols-outlined, .estilo-opcao-geral{
+    .material-symbols-display, .estilo-opcao-geral{
         width: 90%;
     }
     
-    .material-symbols-outlined:hover, .estilo-opcao-geral:hover{
+    .material-symbols-display:hover, .estilo-opcao-geral:hover{
         background: #383838;
     }
 
@@ -69,7 +70,4 @@
         display: block;
         margin: auto;
     }
-
-    /* Configurações Respoinsivas de Navegação do Projeto Pt5*/
-
 }
