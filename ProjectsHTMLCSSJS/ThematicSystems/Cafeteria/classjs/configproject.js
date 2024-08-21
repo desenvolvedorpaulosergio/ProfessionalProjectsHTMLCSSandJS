@@ -46,10 +46,3 @@ function configBody(){
         equiv.style.display = 'block';
     }
 }
-
-    let item1 = window.document.getElementById('item1')
-    let item2 = window.document.getElementById('item2')
-    let item3 = window.document.getElementById('item3')
-    item1.addEventListener(click, function(){
-        alert('89ijui')
-    })
