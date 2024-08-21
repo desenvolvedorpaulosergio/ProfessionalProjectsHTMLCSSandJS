@@ -204,3 +204,9 @@ nav > #estilo-especifico-opcao{
     align-items: center;
     gap: 10%;
 }
+
+.configs-options{
+    border: 1px solid var(--cor-borda-div);
+    padding: 10px;
+    display: block;
+}

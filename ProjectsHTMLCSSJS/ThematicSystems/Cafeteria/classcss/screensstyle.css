@@ -51,7 +51,7 @@
         margin-right: 0;
     }
 
-    nav > a, nav > img, .material-symbols-outlined{
+    nav > a, nav > img, nav > span{
         font-size: 20px;
         display: none;
     }
@@ -69,5 +69,13 @@
         font-size: 80px;
         display: block;
         margin: auto;
+    }
+
+    /* Configurações Respoinsivas de Navegação do Projeto Pt1*/
+
+    .configs-options{
+        border: 1px solid var(--cor-borda-div);
+        padding: 10px;
+        display: block;
     }
 }
