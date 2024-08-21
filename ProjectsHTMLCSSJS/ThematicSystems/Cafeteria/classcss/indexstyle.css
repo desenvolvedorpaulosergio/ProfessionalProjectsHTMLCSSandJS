@@ -205,8 +205,11 @@ nav > #estilo-especifico-opcao{
     gap: 10%;
 }
 
-.configs-options{
-    border: 1px solid var(--cor-borda-div);
-    padding: 10px;
-    display: block;
+.estilo-padrao-divspt5{
+    border: 0.5px solid var(--cor-borda-div);
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 80px 0px;
+    height: 240px;
+    width: 300px;
 }

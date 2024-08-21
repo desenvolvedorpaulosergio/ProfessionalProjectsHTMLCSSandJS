@@ -25,6 +25,7 @@ function configBody(){
     let opcoes = window.document.querySelectorAll('.estilo-opcao-geral')
     let icone = window.document.getElementById('config-icone')
     let equiv = window.document.getElementById('estilo-equiv')
+    let config_display = window.document.querySelectorAll('.config-display')
 
     if(window.innerWidth > 642){
         symbols.forEach(function(symbols){
@@ -45,4 +46,7 @@ function configBody(){
         icone.style.display = 'none';
         equiv.style.display = 'block';
     }
+    config_display.forEach(function(config_display){
+        config_display.style.display = 'block'
+    })
 }

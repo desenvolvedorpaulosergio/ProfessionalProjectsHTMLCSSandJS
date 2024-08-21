@@ -26,7 +26,6 @@
         background: black url(../resource/imgs/home-img.jpeg) center center no-repeat;
         background-size: cover;
     }
-
 }
 
 @media screen and (max-width: 642px){
@@ -71,11 +70,6 @@
         margin: auto;
     }
 
-    /* Configurações Respoinsivas de Navegação do Projeto Pt1*/
+    /* Configurações Respoinsivas de Navegação do Projeto Pt5*/
 
-    .configs-options{
-        border: 1px solid var(--cor-borda-div);
-        padding: 10px;
-        display: block;
-    }
 }
