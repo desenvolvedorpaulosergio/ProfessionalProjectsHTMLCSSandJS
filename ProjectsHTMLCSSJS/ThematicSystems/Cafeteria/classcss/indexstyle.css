@@ -213,3 +213,8 @@ nav > #estilo-especifico-opcao{
     height: 240px;
     width: 300px;
 }
+
+.config-display{
+    color: var(--cor-letra1);
+    border: 2px solid red;
+}
