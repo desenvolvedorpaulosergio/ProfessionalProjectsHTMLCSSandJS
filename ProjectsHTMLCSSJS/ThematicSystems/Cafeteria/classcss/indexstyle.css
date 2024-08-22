@@ -197,15 +197,19 @@ nav > #estilo-especifico-opcao{
 
 /* Configurações do Projeto Pt5*/
 
-#config-display-divpt5{
-    padding: 20px;
+#section-project-pt5{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
 }
+
 
 .estilo-padrao-divspt5{
     border: 0.5px solid var(--cor-borda-div);
     padding: 50px 0px 100px 0px;
     text-align: center;
-    margin: 30px auto;
     height: 240px;
     width: 300px;
 }
