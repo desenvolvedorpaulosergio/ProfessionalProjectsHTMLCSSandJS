@@ -192,7 +192,7 @@ nav > #estilo-especifico-opcao{
 .estilo-preco{
     font: normal normal 25px 'fonte-preco';
     color: var(--cor-letra1);
-    line-height: 50px;
+    line-height: 30px;
 }
 
 /* Configurações do Projeto Pt5*/
@@ -208,9 +208,8 @@ nav > #estilo-especifico-opcao{
 
 .estilo-padrao-divspt5{
     border: 0.5px solid var(--cor-borda-div);
-    margin-bottom: 40px;
     text-align: center;
-    padding: 80px 0px;
+    padding: 50px 0px 100px 0px;
     height: 240px;
     width: 300px;
 }
@@ -231,7 +230,7 @@ nav > #estilo-especifico-opcao{
 
 .material-symbols-display3{
     color: var(--cor-letra2);
-    line-height: 25px;
+    line-height: 20px;
 }
 
 .estilo-padrao-subtitulo2{
