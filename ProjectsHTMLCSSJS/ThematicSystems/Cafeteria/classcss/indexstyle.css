@@ -260,8 +260,8 @@ nav > #estilo-especifico-opcao{
 }
 
 .estilo-texto{
-    font: normal normal 15px var(--font-letra1);
+    font: normal normal 12px var(--font-letra1);
     color: var(--cor-letra3);
     text-align: center;
-    line-height: 20px;
+    line-height: 15px;
 }
