@@ -239,3 +239,22 @@ nav > #estilo-especifico-opcao{
     font: normal bold 20px var(--font-letra1);
     color: var(--cor-letra1);
 }
+
+/* Configurações do Projeto Pt6*/
+
+#section-project-pt6{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+}
+
+.estilo-padrao-divspt6{
+    border: 0.5px solid var(--cor-borda-div);
+    padding: 50px 0px 100px 0px;
+    text-align: center;
+    height: 240px;
+    width: 300px;
+    margin: 40px auto;
+}
