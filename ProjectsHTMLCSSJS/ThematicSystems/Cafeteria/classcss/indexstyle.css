@@ -199,17 +199,13 @@ nav > #estilo-especifico-opcao{
 
 #config-display-divpt5{
     padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
-    align-items: center;
-    gap: 10%;
 }
 
 .estilo-padrao-divspt5{
     border: 0.5px solid var(--cor-borda-div);
-    text-align: center;
     padding: 50px 0px 100px 0px;
+    text-align: center;
+    margin: 30px auto;
     height: 240px;
     width: 300px;
 }
@@ -231,6 +227,7 @@ nav > #estilo-especifico-opcao{
 .material-symbols-display3{
     color: var(--cor-letra2);
     line-height: 20px;
+    word-spacing: -20px;
 }
 
 .estilo-padrao-subtitulo2{
