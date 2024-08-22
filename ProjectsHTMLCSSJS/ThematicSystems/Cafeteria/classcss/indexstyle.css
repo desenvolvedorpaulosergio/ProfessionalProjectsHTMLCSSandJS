@@ -228,3 +228,13 @@ nav > #estilo-especifico-opcao{
     color: var(--cor-letra2);
     cursor: pointer;
 }
+
+.material-symbols-display3{
+    color: var(--cor-letra2);
+    line-height: 25px;
+}
+
+.estilo-padrao-subtitulo2{
+    font: normal bold 20px var(--font-letra1);
+    color: var(--cor-letra1);
+}
