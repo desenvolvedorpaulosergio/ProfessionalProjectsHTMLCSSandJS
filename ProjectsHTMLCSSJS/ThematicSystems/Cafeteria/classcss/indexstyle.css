@@ -244,17 +244,24 @@ nav > #estilo-especifico-opcao{
 
 #section-project-pt6{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
     gap: 5%;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .estilo-padrao-divspt6{
     border: 0.5px solid var(--cor-borda-div);
-    padding: 50px 0px 100px 0px;
+    padding: 40px 5px 120px 5px;
     text-align: center;
+    margin: 40px auto;
     height: 240px;
     width: 300px;
-    margin: 40px auto;
+}
+
+.estilo-texto{
+    font: normal normal 15px var(--font-letra1);
+    color: var(--cor-letra3);
+    text-align: center;
+    line-height: 20px;
 }
