@@ -279,13 +279,14 @@ nav > #estilo-especifico-opcao{
 }
 
 #estilo-form > h3{
-    line-height: 80px;
     text-align: center;
+    line-height: 80px;
 }
 
 #estilo-form > label > input{
     font: normal normal 15px var(--font-letra1);
     background: var(--corfundonav);
+    color: var(--cor-letra1);
     padding: 10px;
     height: 30px;
     border: none;
@@ -301,6 +302,11 @@ label{
 .material-symbols-display4{
     background: var(--corfundonav);
     color: var(--cor-letra1);
-    font-size: 40px;
-    padding: 5px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#config-margin{
+    margin-left: 20px;
+    margin-top: 20px;
 }
