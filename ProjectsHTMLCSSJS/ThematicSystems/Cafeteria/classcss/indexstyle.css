@@ -270,10 +270,10 @@ nav > #estilo-especifico-opcao{
 #section-project-pt7{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .estilo-div-contato-padrao{
-    border: 2px solid blue;   
+    background: var(--cor-fundo-div);
     height: 450px;
     width: 550px;
 }
