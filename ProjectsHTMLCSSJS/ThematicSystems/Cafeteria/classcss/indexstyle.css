@@ -328,9 +328,18 @@ label{
     text-align: center;
     height: 400px;
     width: 300px;
+    padding: 0;
 }
 
+.config-padrao-fundoImg{
+    
+}
 
+#estilo-fundo-img{
+    width: 100%;
+    height: 200px;
+    background: black url(../resource/imgs/blog1.jpeg);
+}
 
 
 
