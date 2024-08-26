@@ -324,27 +324,47 @@ label{
 }
 
 .estilo-padrao-divpt8{
-    border: 2px solid red;
-    text-align: center;
-    height: 400px;
-    width: 300px;
+    border: 1px solid var(--cor-borda-div);
+    height: 420px;
+    width: 350px;
     padding: 0;
 }
 
 .config-padrao-fundoImg{
-    
-}
-
-#estilo-fundo-img{
+    background: var(--corbordaspan) center bottom no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    height: 50%;    
     width: 100%;
-    height: 200px;
-    background: black url(../resource/imgs/blog1.jpeg);
 }
 
+#estilo-fundo-img1{
+    background-image: url(../resource/imgs/blog1.jpeg);
+}
 
+#estilo-fundo-img1{
+    background-image: url(../resource/imgs/blog2.jpeg);
+}
 
+#estilo-fundo-img1{
+    background-image: url(../resource/imgs/blog3.jpeg);
+}
 
+.config-padrao-textoPt8{
+    margin: 0px 15px 0px 15px;
+}
 
+.config-texto1-pt8{
+    font: normal normal 14px 'fonte-titulo';
+    color: var(--cor-letra3);
+    line-height: 30px;
+}
+
+.config-texto2-pt8{
+    font: normal normal 15px 'fonte-titulo';
+    color: var(--cor-letra1);
+    line-height: 20px;
+}
 
 
 
