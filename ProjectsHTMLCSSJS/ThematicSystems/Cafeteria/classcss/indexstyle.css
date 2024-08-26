@@ -326,8 +326,9 @@ label{
 .estilo-padrao-divpt8{
     border: 1px solid var(--cor-borda-div);
     height: 420px;
-    width: 350px;
+    width: 380px;
     padding: 0;
+    margin: 15px 0px 15px 0px;
 }
 
 .config-padrao-fundoImg{
@@ -342,11 +343,11 @@ label{
     background-image: url(../resource/imgs/blog1.jpeg);
 }
 
-#estilo-fundo-img1{
+#estilo-fundo-img2{
     background-image: url(../resource/imgs/blog2.jpeg);
 }
 
-#estilo-fundo-img1{
+#estilo-fundo-img3{
     background-image: url(../resource/imgs/blog3.jpeg);
 }
 
