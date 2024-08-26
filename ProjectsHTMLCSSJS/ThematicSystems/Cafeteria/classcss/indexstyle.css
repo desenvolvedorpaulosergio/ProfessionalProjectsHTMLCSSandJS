@@ -313,3 +313,43 @@ label{
 #config-comptrimento{
     width: 450px;
 }
+
+/* Configurações do Projeto Pt8*/
+
+#section-project-pt8{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.estilo-padrao-divpt8{
+    border: 2px solid red;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
