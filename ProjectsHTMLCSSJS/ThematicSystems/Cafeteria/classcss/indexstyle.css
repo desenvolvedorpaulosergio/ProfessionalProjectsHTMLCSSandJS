@@ -267,6 +267,7 @@ nav > #estilo-especifico-opcao{
 }
 
 /* Configurações do Projeto Pt7*/
+
 #section-project-pt7{
     display: flex;
     flex-flow: row wrap;
@@ -367,19 +368,4 @@ label{
     line-height: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Configurações do Projeto Pt8*/
