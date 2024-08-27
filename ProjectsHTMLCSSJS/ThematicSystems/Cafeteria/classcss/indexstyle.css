@@ -370,3 +370,8 @@ label{
 
 /* Configurações do Projeto Pt9*/
 
+#config-estilo-footer{
+    height: 300px;
+    background: red;
+    padding: 10px;
+}
