@@ -27,6 +27,12 @@
         background-size: cover;
     }
 
+    /* Configurações Respoinsiva do Projeto Pt9*/
+
+    .estilo-padrao-botao2{
+        margin: 15px 10px;
+    }
+
 }
 
 @media screen and (max-width: 642px){
