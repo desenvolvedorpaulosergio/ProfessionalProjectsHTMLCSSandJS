@@ -384,7 +384,7 @@ label{
     justify-content: center;
 }
 
-#config-display-imgs > img{
+#config-display-imgs > a > img{
     margin: 0px 10px;
     width: 40px;
 }
