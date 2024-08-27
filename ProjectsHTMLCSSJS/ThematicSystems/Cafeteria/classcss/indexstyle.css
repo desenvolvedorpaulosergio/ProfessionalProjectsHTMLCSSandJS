@@ -372,6 +372,17 @@ label{
 
 #config-estilo-footer{
     height: 300px;
-    background: red;
+    background: var(--cor-fundo-div);
     padding: 10px;
+}
+
+#config-display-imgs{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#config-display-imgs > img{
+    margin: 0;
 }
