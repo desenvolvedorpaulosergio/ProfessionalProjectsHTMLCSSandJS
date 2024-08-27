@@ -3,22 +3,22 @@
     /* Configurações de Navegação do Projeto Pt1*/
 
 :root{
-    --corfundonav: #000000;
-    --corfundonav2: #383838;
-    --corbordanav: #1e222e;
-    --corbordaspan: #383838;
-
+    --cor-fundo-botao2: #000000;
+    --cor-fundo-botao: #C3A074;
     --cor-fundo-div: #0F1015;
+    --corfundonav2: #383838;
+    --corfundonav: #000000;
+
     --cor-borda-div: #ffffff71;
+    --corbordaspan: #383838;
+    --corbordanav: #1e222e;
+
 
     --cor-letra1: #ffffff;
     --cor-letra2: #C3A074;
     --cor-letra3: #ffffff98;
 
     --font-letra1: arial;
-
-    --cor-fundo-botao: #C3A074;
-    --cor-fundo-botao2: #000000;
 }
 
 @font-face {
@@ -61,7 +61,6 @@ nav > img:hover, nav > a:hover, nav > span:hover{
     color: var(--cor-letra3);
     cursor: pointer;
 }
-
 
 nav > img{
     margin-right: auto;
@@ -206,7 +205,6 @@ nav > #estilo-especifico-opcao{
     gap: 5%;
 }
 
-
 .estilo-padrao-divspt5{
     border: 0.5px solid var(--cor-borda-div);
     padding: 50px 0px 100px 0px;
@@ -274,6 +272,7 @@ nav > #estilo-especifico-opcao{
     flex-flow: row wrap;
     justify-content: center;
 }
+
 .estilo-contato-padrao{
     background: var(--cor-fundo-div);
     height: 350px;
