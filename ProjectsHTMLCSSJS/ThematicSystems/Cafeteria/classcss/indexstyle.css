@@ -18,6 +18,7 @@
     --font-letra1: arial;
 
     --cor-fundo-botao: #C3A074;
+    --cor-fundo-botao2: #000000;
 }
 
 @font-face {
@@ -386,3 +387,12 @@ label{
 #config-display-imgs > img{
     margin: 0;
 }
+
+.estilo-padrao-botao2{
+    font: normal normal 15px var(--font-letra1);
+    border: 1px solid var(--corbordaspan);
+    background: transparent;
+    color: var(--cor-letra1);
+    padding: 10px 20px;
+}
+
