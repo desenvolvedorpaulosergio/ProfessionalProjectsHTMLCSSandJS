@@ -4,4 +4,22 @@ body{
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
+    width: 98vw;
+    height: 97vh;
+}
+
+#config-tamanho{
+    box-shadow: 0px 5px 5px #0000005d;
+    border: 2px solid black;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.config-padrao{
+    box-shadow: 0px 5px 5px #0000005d;
+    background: red;
+    height: 100%;
+    width: 50%;
 }
