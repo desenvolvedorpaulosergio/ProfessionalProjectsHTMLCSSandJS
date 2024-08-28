@@ -1,3 +1,5 @@
+@charset 'UTF-8';
+
 body{
     background: #B4B5F4;
     display: flex;
@@ -8,18 +10,41 @@ body{
     height: 97vh;
 }
 
-#config-tamanho{
-    box-shadow: 0px 5px 5px #0000005d;
-    border: 2px solid black;
-    height: 500px;
-    width: 900px;
+@font-face {
+    font-family: 'fonte-titulo';
+    src: url(../resource/fonts/fonte-titulo.ttf);
+}
+
+#config-main{
+    box-shadow: 0px 8px 5px #00000034;
+    height: 550px;
+    width: 1000px;
     display: flex;
     flex-flow: row wrap;
 }
 
 .config-padrao{
     box-shadow: 0px 5px 5px #0000005d;
-    background: red;
+    background: white;
     height: 100%;
     width: 50%;
+}
+
+#estilo-especifico-div{
+    background: #DCC8A7 url(../resource/imgs/img1.svg) center center no-repeat;
+    background-size: contain;
+}
+
+#estilo-especifico-form{
+}
+
+#estilo-titulo{
+    font: normal normal 20px 'fonte-titulo';
+}
+
+.config-padrao-botao{
+    font: normal normal 15px 'arial'; 
+    background: #6A5FEE;
+    padding: 8px 20px;
+    color: white;
 }
