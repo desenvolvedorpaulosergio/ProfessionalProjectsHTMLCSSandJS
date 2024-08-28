@@ -38,8 +38,14 @@ body{
 #estilo-especifico-form{
 }
 
+span{
+    border: none;
+}
+
 #estilo-titulo{
-    font: normal normal 20px 'fonte-titulo';
+    font: normal normal 30px 'fonte-titulo';
+    padding: 20px 10px;
+    color: black;
 }
 
 .config-padrao-botao{
