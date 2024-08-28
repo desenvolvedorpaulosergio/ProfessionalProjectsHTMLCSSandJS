@@ -40,17 +40,23 @@ body{
 
 span{
     border: none;
+    border-bottom: 5px solid #6A5FEE;
+}
+
+.config-inline{
+    display: inline-block;
 }
 
 #estilo-titulo{
-    font: normal normal 30px 'fonte-titulo';
+    font: normal bold 30px 'fonte-titulo';
     padding: 20px 10px;
-    color: black;
 }
 
 .config-padrao-botao{
     font: normal normal 15px 'arial'; 
     background: #6A5FEE;
+    border-radius: 10px;
     padding: 8px 20px;
     color: white;
+    border: none;
 }
