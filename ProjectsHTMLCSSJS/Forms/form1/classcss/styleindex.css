@@ -1,5 +1,3 @@
-@charset 'UTF-8';
-
 *{
     margin: auto;
     padding: 0%;
@@ -18,9 +16,12 @@ body, main{
     justify-content: center;
 }
 
-.config-container-filho-padrao{
-    border: 1px solid black;
-    height: 500px;
-    width: 550px;
+main{
+    width: 100vw;
 }
 
+.config-container-filho-padrao{
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+}
