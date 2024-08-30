@@ -38,7 +38,7 @@ body{
 #estilo-especifico-form{
 }
 
-span{
+#estilo-especifico-span{
     border: none;
     border-bottom: 5px solid #6A5FEE;
 }
@@ -59,4 +59,11 @@ span{
     padding: 8px 20px;
     color: white;
     border: none;
+}
+
+#config-display{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
 }
