@@ -52,9 +52,11 @@ body, main{
 }
 
 .config-padrao-div{
-    padding: 20px;
+    padding: 20px 10px;
 }
 
-.config-inline{
-    display: inline-block;
+#config-inline{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 100px;
 }
