@@ -37,3 +37,24 @@ body, main{
 #config-especifico-form{
     background: white;
 }
+
+#config-especifico-span{
+    border: none;
+    border-bottom: 2px solid #564FC8;
+}
+
+.config-padrao-botao{
+    background: #564FC8;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+}
+
+.config-padrao-div{
+    padding: 20px;
+}
+
+.config-inline{
+    display: inline-block;
+}
