@@ -16,10 +16,6 @@ body{
     width: 100vw;
 }
 
-main{
-    height: 550px;
-    width: 1100px;
-}
 
 body, main{
     display: flex;
@@ -28,9 +24,13 @@ body, main{
     justify-content: center;
 }
 
+main{
+    height: 550px;
+    max-width: 1100px;
+}
 .config-padrao-elemento-filho{
     height: 100%;
-    width: 50%;
+    width: 550px;
 }
 
 #config-especifico-div{
@@ -63,9 +63,9 @@ body, main{
 }
 
 #config-inline{
+    gap: 140px;
     display: flex;
     flex-flow: row wrap;
-    gap: 140px;
 }
 
 h1{
@@ -94,8 +94,8 @@ input{
     margin: 0px 4px;
 }
 
-@media screen and (max-width: 750px){
-    body{
-        background:red;
+@media screen and (max-width: 1080px){
+    #config-especifico-div{
+        display: none;
     }
 }
