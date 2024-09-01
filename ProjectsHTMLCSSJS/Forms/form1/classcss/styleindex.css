@@ -25,8 +25,8 @@ body, main{
 }
 
 main{
-    height: 550px;
     max-width: 1100px;
+    height: 550px;
 }
 .config-padrao-elemento-filho{
     height: 100%;
@@ -54,8 +54,12 @@ main{
     border: none;
 }
 
+.config-padrao-botao:active{
+    background: #373197;
+}
+
 #config-especifico-botao2{
-    padding: 10px 200px;
+    padding: 10px 40%;
 }
 
 #config-padrao-div{
@@ -94,17 +98,6 @@ input{
     margin: 0px 4px;
 }
 
-@media screen and (max-width: 1100px){
-    #config-especifico-div{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 980px){
-    body{
-        background: blue;
-    }
-    #config-especifico-div{
-        display: none;
-    }
+.center-elemento{
+    text-align: center;
 }
