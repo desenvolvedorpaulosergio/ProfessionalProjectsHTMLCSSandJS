@@ -69,8 +69,9 @@ body, main{
 }
 
 #config-especifico-div2{
-    padding: 10px 40px;
+    padding: 20px 40px;
     display: flex;
+    flex-flow: row wrap;
 }
 
 .config-display-label{
@@ -79,5 +80,9 @@ body, main{
 }
 
 input{
+    box-shadow: 1px 1px 5px #00000036;
+    border-radius: 5px;
     padding: 10px 10px;
+    border: none;
+    margin: 15px 0px;
 }
