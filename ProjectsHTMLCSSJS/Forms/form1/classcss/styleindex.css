@@ -64,18 +64,18 @@ body, main{
     gap: 140px;
 }
 
-#config-inline > h1{
+h1{
     font: normal bold 30px 'fonte-titulo';
+}
+
+label{
+    font: normal normal 18px 'Arial';
 }
 
 #config-especifico-div2{
     padding: 20px 40px;
     display: flex;
     flex-flow: row wrap;
-}
-
-label{
-    font: normal normal 18px 'Arial';
 }
 
 
@@ -89,4 +89,8 @@ input{
 
 .genero{
     margin: 0px 4px;
+}
+
+#config-especifico-botao2{
+    padding: 10px 200px;
 }
