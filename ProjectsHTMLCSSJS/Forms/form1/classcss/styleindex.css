@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'fonte-titulo';
+    src: url(../resource/fonts/fonte-titulo.ttf);
+}
 
 body{
     background: #B4B5F4;
@@ -39,7 +43,6 @@ body, main{
 }
 
 #config-especifico-span{
-    border: none;
     border-bottom: 2px solid #564FC8;
 }
 
@@ -59,4 +62,8 @@ body, main{
     display: flex;
     flex-flow: row wrap;
     gap: 100px;
+}
+
+#config-inline > h1{
+    font: normal bold 30px 'fonte-titulo';
 }
