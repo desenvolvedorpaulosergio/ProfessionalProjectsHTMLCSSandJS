@@ -74,15 +74,19 @@ body, main{
     flex-flow: row wrap;
 }
 
-.config-display-label{
+label{
     font: normal normal 18px 'Arial';
-
 }
+
 
 input{
     box-shadow: 1px 1px 5px #00000036;
     border-radius: 5px;
     padding: 10px 10px;
-    border: none;
     margin: 15px 0px;
+    border: none;
+}
+
+.genero{
+    margin: 0px 4px;
 }
