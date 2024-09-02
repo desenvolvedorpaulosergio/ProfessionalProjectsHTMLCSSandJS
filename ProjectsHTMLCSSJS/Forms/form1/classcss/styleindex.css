@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
 *{
-    margin: auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -13,5 +13,22 @@
 body{
     background: #B4B5F4;
     height: 100vh;
-    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.config-elemento{
+    height: 550px;
+    width: 550px;
+}
+
+#config-div-especifico{
+    background: #e3ceac url(../resource/imgs/img1.svg) center center no-repeat;
+    background-size: contain;
+}
+
+#config-form-especifico{
+    background: white;
 }
