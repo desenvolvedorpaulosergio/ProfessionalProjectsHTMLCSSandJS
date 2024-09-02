@@ -8,15 +8,15 @@
 </head>
 <body>
     <main>
-        <div class="config-padrao-elemento-filho" id="config-especifico-div"></div>
-        <form class="config-padrao-elemento-filho" id="config-especifico-form">
-            <div id="config-padrao-div">
-                <span id="config-inline">
-                    <h1><span id="config-especifico-span">Cada</span>stre-se</h1>
-                    <button class="config-padrao-botao">Entrar</button>
+        <div></div>
+        <form>
+            <div>
+                <span>
+                    <h1><span>Cada</span>stre-se</h1>
+                    <button>Entrar</button>
                 </span>
             </div>
-            <div id="config-especifico-div2">
+            <div>
                 <label for="pnpme" class="config-label"> Primeiro Nome <br>
                     <input type="text" name="" id="pnpme" placeholder="digite seu primeiro nome" size="25" minlength="8" maxlength="12" required>
                 </label>
@@ -35,18 +35,14 @@
                 <label for="senha" class="config-display-label"> Confirmar Senha <br>
                     <input type="password" name="" id="senha" placeholder="confirme sua senha" size="25" minlength="8" required>
                 </label>
-                <label> <br> Gênero:
-                    <small>
-                        <input type="radio" name="genero" class="genero"> Masculino
-                        <input type="radio" name="genero" class="genero"> Feminino
-                        <input type="radio" name="genero" class="genero"> Outro
-                        <input type="radio" name="genero" class="genero"> Prefiro não dizer
-                    </small> <br> <br> <br>
+                <label id="center-elemento"> <br> Gênero:
+                        <input type="radio" name="genero"> Masculino
+                        <input type="radio" name="genero"> Feminino
+                        <input type="radio" name="genero"> Outro
+                        <input type="radio" name="genero"> Prefiro não dizer
                 </label>
             </div>
-            <div class="center-elemento">
-                <button class="config-padrao-botao" id="config-especifico-botao2">Continuar</button>
-            </div>
+            <button>Continuar</button>
         </form>
     </main>
 </body>
