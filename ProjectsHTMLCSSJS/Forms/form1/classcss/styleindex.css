@@ -15,11 +15,15 @@ body{
     height: 100vh;
 }
 
-body, #config-form-especifico, #config-display{
+body, #config-display{
     display: flex;
     align-items: center;
     flex-flow: row nowrap;
     justify-content: center;
+}
+
+.config-divs{
+    border: 2px solid red;
 }
 
 .config-elemento{
