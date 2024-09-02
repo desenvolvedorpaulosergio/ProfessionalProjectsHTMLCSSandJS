@@ -13,6 +13,9 @@
 body{
     background: #B4B5F4;
     height: 100vh;
+}
+
+body, #config-form-especifico, #config-display{
     display: flex;
     align-items: center;
     flex-flow: row nowrap;
@@ -26,9 +29,39 @@ body{
 
 #config-div-especifico{
     background: #e3ceac url(../resource/imgs/img1.svg) center center no-repeat;
-    background-size: contain;
+    background-size: 90%;
 }
 
 #config-form-especifico{
     background: white;
+}
+
+.config-divs{
+    padding: 20px;
+}
+
+h1{
+    font: normal bold 30px 'fonte-titulo';
+}
+
+h1 > span{
+    border: none;
+    border-bottom: 4px solid #564FC8;
+}
+
+.estilo-botao-padrao{
+    font: normal normal 15px 'arial';
+    background: #564FC8;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.estilo-botao-padrao:active{
+    background: #242077;
+}
+
+#estilo-especifico-botao1{
+    padding: 10px 16px;
+    margin-left: 20vw;
 }
