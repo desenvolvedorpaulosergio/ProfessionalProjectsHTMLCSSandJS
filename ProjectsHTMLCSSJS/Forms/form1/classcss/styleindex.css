@@ -26,16 +26,17 @@ body, main{
 
 main{
     max-width: 1100px;
-    height: 550px;
 }
 .config-padrao-elemento-filho{
-    height: 100%;
-    width: 550px;
+    max-width: 550px;
+    height: 550px;
 }
 
 #config-especifico-div{
     background: #C8B698 url(../resource/imgs/img1.svg) center center no-repeat;
     background-size: 80%;
+    padding: 0px 260px;
+    max-width: 550px;
 }
 
 #config-especifico-form{
@@ -100,4 +101,24 @@ input{
 
 .center-elemento{
     text-align: center;
+}
+
+@media screen and (max-width: 1100px){
+    #config-especifico-div{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 980px){
+    body{
+        background: blue;
+    }
+
+    #config-especifico-div{
+        display: none;
+    }
+
+    .center-elemento{
+        text-align: center; 
+    }
 }
