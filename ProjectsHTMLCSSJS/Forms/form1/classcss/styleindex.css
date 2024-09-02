@@ -110,8 +110,9 @@ input{
 }
 
 @media screen and (max-width: 980px){
-    body{
-        background: blue;
+    #config-especifico-div2{
+        overflow-y: scroll;
+        height: 350px;
     }
 
     #config-especifico-div{
