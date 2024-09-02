@@ -15,34 +15,13 @@
                 <button class="estilo-botao-padrao" id="estilo-especifico-botao1">Entrar</button>
             </span>
         </div>
-        <div class="config-divs">
-            <div>
-                <label for="pnpme" class="config-label"> Primeiro Nome <br>
-                    <input type="text" name="" id="pnpme" placeholder="digite seu primeiro nome" size="25" minlength="8" maxlength="12" required>
-                </label>
-                <label for="sobrenome" class="config-display-label"> Sobrenome <br>
-                    <input type="text" name="" id="sobrenome" placeholder="digite seu sobrenome" size="25" minlength="8" maxlength="12" required>
-                </label>
-                <label for="email" class="config-display-label"> Email <br>
-                    <input type="email" name="" id="email" placeholder="digite seu email" size="25" minlength="16" maxlength="30" required>
-                </label>
-                <label for="telefone" class="config-display-label"> Celular <br>
-                    <input type="tel" name="" id="telefone" placeholder="(xx) xxxxx-xxxx" size="25" maxlength="15" required>
-                </label>
-                <label for="senha" class="config-display-label"> Senha <br>
-                    <input type="password" name="" id="senha" placeholder="digite sua senha" size="25" minlength="8" required>
-                </label>
-                <label for="senha" class="config-display-label"> Confirmar Senha <br>
-                    <input type="password" name="" id="senha" placeholder="confirme sua senha" size="25" minlength="8" required>
-                </label>
-                <label id="center-elemento"> <br> Gênero:
-                        <input type="radio" name="genero"> Masculino
-                        <input type="radio" name="genero"> Feminino
-                        <input type="radio" name="genero"> Outro
-                        <input type="radio" name="genero"> Prefiro não dizer
-                </label>
-            </div>
-            <button>Continuar</button>
+        <div class="config-divs" id="config-display-especifico">
+            <label for="primeironome" class="config-display-label"> Primeiro Nome <br>
+                <input type="text" name="pnome" id="primeironome" minlength="6" maxlength="10" required placeholder="digite seu primeiro nome">
+            </label>
+            <label for="sobremome"> Sobrenome <br>
+                <input type="text" name="sobrenome" id="sobrenome" minlength="6" maxlength="10" required placeholder="digite seu sobrenome">
+            </label>
         </div>
     </form>
 </body>

@@ -69,3 +69,27 @@ h1 > span{
     padding: 10px 16px;
     margin-left: 20vw;
 }
+
+input[type=text], input[type=email], input[type=password], input[type=tel]{
+    box-shadow: 2px 2px 5px #00000042;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: none;
+    width: 200px;
+}
+
+#config-display-especifico{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+label{
+    font: normal normal 15px 'arial';
+}
+
+
+
+
