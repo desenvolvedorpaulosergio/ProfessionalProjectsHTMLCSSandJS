@@ -9,19 +9,36 @@
 <body>
     <div class="config-elemento" id="config-div-especifico"></div>
     <form class="config-elemento" id="config-form-especifico">
-        <div class="config-divs">
-            <span id="config-display">
-                <h1><span>Cada</span>stre-se</h1>
-                <button class="estilo-botao-padrao" id="estilo-especifico-botao1">Entrar</button>
-            </span>
-        </div>
-        <div class="config-divs" id="config-display-especifico">
-            <label for="primeironome" class="config-display-label"> Primeiro Nome <br>
-                <input type="text" name="pnome" id="primeironome" minlength="6" maxlength="10" required placeholder="digite seu primeiro nome">
-            </label>
-            <label for="sobremome"> Sobrenome <br>
-                <input type="text" name="sobrenome" id="sobrenome" minlength="6" maxlength="10" required placeholder="digite seu sobrenome">
-            </label>
+        <div id="config-display-elementos">
+            <div class="config-divs">
+                <span id="config-display">
+                    <h1><span>Cada</span>stre-se</h1>
+                    <button class="estilo-botao-padrao" id="estilo-especifico-botao1">Entrar</button>
+                </span>
+            </div>
+            <div class="config-divs" id="config-display-especifico">
+                <label for="primeironome" class="config-display-label"> Primeiro Nome <br>
+                    <input type="text" name="pnome" id="primeironome" minlength="6" maxlength="10" required placeholder="digite seu primeiro nome">
+                </label>
+                <label for="sobremome"> Sobrenome <br>
+                    <input type="text" name="sobrenome" id="sobrenome" minlength="6" maxlength="10" required placeholder="digite seu sobrenome">
+                </label>
+                <label for="email"> Email <br>
+                    <input type="email" name="email" id="email" minlength="10" required placeholder="digite seu email">
+                </label>
+                <label for="celular"> Celular <br>
+                    <input type="tel" name="sobrenome" id="sobrenome" minlength="12" required placeholder="(xx) xxxxx-xxxx">
+                </label>
+                <label for="senha"> Senha <br>
+                    <input type="password" name="senha" id="senha" minlength="8" required placeholder="digite sua senha">
+                </label>
+                <label for="csenha"> Confirme <br>
+                    <input type="password" name="senha" id="csenha" minlength="8" required placeholder="confirme sua senha">
+                </label>
+            </div>
+            <div id="config-center">
+                <button class="estilo-botao-padrao" id="estilo-especifico-botao2">Entrar</button>
+            </div>
         </div>
     </form>
 </body>

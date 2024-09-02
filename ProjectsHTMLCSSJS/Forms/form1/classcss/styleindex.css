@@ -22,10 +22,6 @@ body, #config-display{
     justify-content: center;
 }
 
-.config-divs{
-    border: 2px solid red;
-}
-
 .config-elemento{
     height: 550px;
     width: 550px;
@@ -56,6 +52,7 @@ h1 > span{
 .estilo-botao-padrao{
     font: normal normal 15px 'arial';
     background: #564FC8;
+    padding: 10px 16px;
     border-radius: 5px;
     color: white;
     border: none;
@@ -66,8 +63,15 @@ h1 > span{
 }
 
 #estilo-especifico-botao1{
-    padding: 10px 16px;
-    margin-left: 20vw;
+    margin-left: 18vw;
+}
+
+#estilo-especifico-botao2{
+    width: 70%;
+}
+
+#config-center{
+    text-align: center;
 }
 
 input[type=text], input[type=email], input[type=password], input[type=tel]{
@@ -75,21 +79,19 @@ input[type=text], input[type=email], input[type=password], input[type=tel]{
     border-radius: 5px;
     padding: 10px 10px;
     border: none;
-    width: 200px;
+    width: 220px;
 }
 
 #config-display-especifico{
+    font: normal normal 18px 'arial';
+    margin: 10px 0px;
+    gap: 10px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    gap: 10px;
 }
 
 label{
-    font: normal normal 15px 'arial';
+    margin: 20px 0px 20px 0px;
 }
-
-
-
-
