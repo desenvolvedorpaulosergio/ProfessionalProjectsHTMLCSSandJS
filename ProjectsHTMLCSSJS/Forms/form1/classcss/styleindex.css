@@ -112,6 +112,13 @@ label{
     #config-form-especifico{
         width: 700px;
     }
+
+    #config-form-especifico{
+        padding: 0px 0px 15px 0px;
+        height: 0px;
+        height: auto;
+    }
+
 }
 
 @media screen and (max-width: 535px){
