@@ -119,6 +119,10 @@ label{
         height: auto;
     }
 
+    body{
+        background: red;
+    }
+
 }
 
 @media screen and (max-width: 535px){
