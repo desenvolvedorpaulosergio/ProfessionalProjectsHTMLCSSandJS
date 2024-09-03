@@ -107,11 +107,13 @@ label{
 }
 
 @media screen and (max-width: 535px){
-    body{
-        background-color: red;
-    }
     #config-display-especifico{
         overflow-y: auto;
-        height: 40vh;
+        height: 55vh;
     }
+
+    #config-display > h1{
+        font-size: 25px;
+    }
+
 }
