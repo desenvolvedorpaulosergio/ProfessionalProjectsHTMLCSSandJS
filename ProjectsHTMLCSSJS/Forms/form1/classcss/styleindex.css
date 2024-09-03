@@ -125,11 +125,16 @@ label{
     }
 
     #label-genero{
+        width: 235px;
         margin: 0;
-        width: 220px;
     } 
 
     #config-display-radio{
-        text-align: center;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    #config-display-radio > label{
+        margin: 5px 0px;
     }
 }
