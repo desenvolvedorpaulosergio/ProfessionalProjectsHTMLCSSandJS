@@ -96,6 +96,14 @@ label{
     margin: 20px 0px 20px 0px;
 }
 
+#label-genero{
+    margin: 0;
+}
+
+.genero{
+    text-align: center;
+}
+
 @media screen and (max-width: 1100px){
     #config-div-especifico{
         display: none;
@@ -116,4 +124,12 @@ label{
         font-size: 25px;
     }
 
+    #label-genero{
+        margin: 0;
+        width: 220px;
+    } 
+
+    #config-display-radio{
+        text-align: center;
+    }
 }
