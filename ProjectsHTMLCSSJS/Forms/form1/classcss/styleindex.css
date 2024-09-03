@@ -95,3 +95,17 @@ input[type=text], input[type=email], input[type=password], input[type=tel]{
 label{
     margin: 20px 0px 20px 0px;
 }
+
+@media screen and (max-width: 1100px){
+    #config-div-especifico{
+        display: none;
+    }
+
+    #config-form-especifico{
+        width: 700px;
+    }
+
+}
+
+@media screen and (max-width: 980px){
+}
