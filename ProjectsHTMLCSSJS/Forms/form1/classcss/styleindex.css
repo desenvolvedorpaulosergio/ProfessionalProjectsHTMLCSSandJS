@@ -12,7 +12,6 @@
 
 body{
     background: #B4B5F4;
-    height: 100vh;
 }
 
 body, #config-display{
@@ -23,6 +22,7 @@ body, #config-display{
 }
 
 .config-elemento{
+    margin-top: 50px;
     height: 550px;
     width: 550px;
 }
