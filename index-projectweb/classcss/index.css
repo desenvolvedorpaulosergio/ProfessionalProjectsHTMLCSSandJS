@@ -53,3 +53,65 @@ nav > a:last-child, #config-estilo-opcoes > a:last-child{
 #config-margin-projetosdesign{
     margin-left: auto;
 }
+
+@keyframes animacaoOpcoes {
+    from{
+        transform: translateY(-500px);
+    }
+}
+
+@keyframes animacaoOpcoes2 {
+    to{
+        transform: translateY(-500px);
+    }
+}
+
+#config-display-opcoes{
+    display: none;
+}
+
+#config-estilo-opcoes{
+    background: #222222;
+    text-align: center;
+    margin-top: 1px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    animation: animacaoOpcoes 300ms 1;
+}
+
+#config-estilo-opcoes > a{
+    font-size: 20px;
+    padding: 10px;
+}
+
+#config-estilo-opcoes > a:hover{
+    border-radius: 50px;
+    background: white;
+    color: black;
+}
+
+#config-estilos-botoes{
+    text-align: center;
+}
+
+#config-estilos-botoes > button{
+    font: normal bolder 20px 'fonte-texto2';
+    background: #222222;
+    text-align: center;
+    transition: 100ms;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 49dvw;
+    margin: 1px 0px;
+}
+
+#config-estilos-botoes > button:hover{
+    transform: scale(1.01);
+}
+
+#config-estilos-botoes > button:active{
+    transform: scale(0.99);
+}
