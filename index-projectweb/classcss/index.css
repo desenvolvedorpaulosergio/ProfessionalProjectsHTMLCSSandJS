@@ -15,6 +15,10 @@
     src: url(https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/IndexDesigns/resources/fonts/fonte-texto2.ttf);
 }
 
+body{
+    overflow-y: hidden;
+}
+
 /* Configurações Header */
 
 nav{
@@ -122,7 +126,7 @@ nav > a:last-child, #config-estilo-opcoes > a:last-child{
     background: #DEDEDE;
     text-align: center;
     margin: 2px auto;
-    height: 470px;
+    height: 75dvh;
     width: 99.5%;
     display: flex;
     align-items: center;
@@ -163,4 +167,35 @@ footer{
 
 .tamanho-padrao-imgs:active{
     transform: scale(0.99);   
+}
+
+/* Configurações de Estilos Espefícisos do Modal de Carregamento */
+
+#condig-fundo-carregamento{
+    background: white;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes anicacaoCarregamento {
+    to{
+        rotate: 360deg;
+    }
+}
+
+#estilo-carregamento-especifico{
+    width: 120px;
+    height: 120px;
+    border-radius: 10000px;
+    border: 15px solid #CACACA;
+    box-shadow: 0px 0px 5px black;
+    border-top: 15px solid #222222;
+    animation: anicacaoCarregamento 1s infinite;
 }

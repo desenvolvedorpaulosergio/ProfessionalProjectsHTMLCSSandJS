@@ -15,3 +15,10 @@ function eventoEquiv(){
         window.document.getElementById('config-display-opcoes').style.display = 'block'
     }
 }
+
+// Configurações de Modal de Carregamento:
+
+setInterval(function(){
+    window.document.getElementById('config-display-container4').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+},2000)
