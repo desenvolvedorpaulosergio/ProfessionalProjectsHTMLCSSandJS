@@ -16,7 +16,7 @@
 }
 
 body{
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 }
 
 /* Configurações Header */
@@ -144,7 +144,7 @@ nav > a:last-child, #config-estilo-opcoes > a:last-child{
     background: #DEDEDE;
     text-align: center;
     margin: 2px auto;
-    height: 75dvh;
+    height: 80dvh;
     width: 99.5%;
     display: flex;
     align-items: center;
