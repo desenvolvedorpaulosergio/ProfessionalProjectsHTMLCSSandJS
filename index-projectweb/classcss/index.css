@@ -15,7 +15,7 @@
     src: url(https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/IndexDesigns/resources/fonts/fonte-texto2.ttf);
 }
 
-/* Configurações Nav */
+/* Configurações Header */
 
 nav{
     background: #222222;
@@ -116,11 +116,13 @@ nav > a:last-child, #config-estilo-opcoes > a:last-child{
     transform: scale(0.99);
 }
 
+/* Configurações Main */
+
 #condig-mensagem{
     background: #DEDEDE;
     text-align: center;
-    margin: 1px auto;
-    height: 420px;
+    margin: 2px auto;
+    height: 470px;
     width: 99.5%;
     display: flex;
     align-items: center;
@@ -129,14 +131,36 @@ nav > a:last-child, #config-estilo-opcoes > a:last-child{
 }
 
 #condig-mensagem > span > h1{
-    font: normal bold 50px 'fonte-texto2';
-    line-height: 50px;
+    font: normal bold 60px 'fonte-texto2';
+    line-height: 60px;
     transition: 100ms;
     color: #AFAFAF;
 }
 
 #condig-mensagem > span > p{
-    font: normal normal 25px 'fonte-texto2';
+    font: normal normal 30px 'fonte-texto2';
     transition: 100ms;
     color: #AFAFAF;
+}
+
+/* Configurações Footer */
+
+footer{
+    background: #222222;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.tamanho-padrao-imgs{
+    transition: 200ms;
+    width: 50px;
+}
+
+.tamanho-padrao-imgs:hover{
+    box-shadow: 0px 0px 5px #38b6ff;
+    border-radius: 100%;
+}
+
+.tamanho-padrao-imgs:active{
+    transform: scale(0.99);   
 }
