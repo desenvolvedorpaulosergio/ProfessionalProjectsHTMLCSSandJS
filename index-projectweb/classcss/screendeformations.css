@@ -22,6 +22,10 @@
     #condig-mensagem > span > p{
         font-size: 20px;  
     }
+
+    #condig-mensagem{
+        height: 480px;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -58,4 +62,7 @@
         font-size: 18px;  
     }
 
+    #condig-mensagem{
+        height: 500px;
+    }
 }
