@@ -16,7 +16,7 @@
 }
 
 body{
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 /* Configurações Header */
@@ -95,6 +95,24 @@ nav > a:last-child, #config-estilo-opcoes > a:last-child{
     color: black;
 }
 
+@keyframes eventoBotoes {
+    from{
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes eventoBotoes2{
+    to{
+        transform: translateY(-300px);
+    }
+}
+
+
+#config-display-botoes{
+    display: none;
+    animation: eventoBotoes 200ms 1;
+}
+
 #config-estilos-botoes{
     text-align: center;
 }
@@ -152,7 +170,7 @@ nav > a:last-child, #config-estilo-opcoes > a:last-child{
 footer{
     background: #222222;
     text-align: center;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 .tamanho-padrao-imgs{

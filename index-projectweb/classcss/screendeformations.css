@@ -26,6 +26,10 @@
     #condig-mensagem{
         height: 480px;
     }
+
+    #config-estilos-botoes > button{
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -64,5 +68,17 @@
 
     #condig-mensagem{
         height: 500px;
+    }
+
+    #config-estilos-botoes > button{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    #config-estilos-botoes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column nowrap;
     }
 }
