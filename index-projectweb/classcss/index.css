@@ -100,12 +100,12 @@ nav > a:last-child, #config-estilo-opcoes > a:last-child{
     background: #222222;
     text-align: center;
     transition: 100ms;
+    margin: 0.5px 0px;
     cursor: pointer;
     color: white;
     padding: 10px;
     border: none;
-    width: 49dvw;
-    margin: 1px 0px;
+    width: 49.5%;
 }
 
 #config-estilos-botoes > button:hover{
@@ -114,4 +114,29 @@ nav > a:last-child, #config-estilo-opcoes > a:last-child{
 
 #config-estilos-botoes > button:active{
     transform: scale(0.99);
+}
+
+#condig-mensagem{
+    background: #DEDEDE;
+    text-align: center;
+    margin: 1px auto;
+    height: 420px;
+    width: 99.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+#condig-mensagem > span > h1{
+    font: normal bold 50px 'fonte-texto2';
+    line-height: 50px;
+    transition: 100ms;
+    color: #AFAFAF;
+}
+
+#condig-mensagem > span > p{
+    font: normal normal 25px 'fonte-texto2';
+    transition: 100ms;
+    color: #AFAFAF;
 }
