@@ -23,4 +23,9 @@ setInterval(function(){
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
 },2000)
 
-//Configurações JavaScript do Primeiro Botão de Projetos
+//Configurações do Evento Projetos Web:
+
+function eventoProjetosWeb(){
+    window.document.getElementById('config-display-ancoras').style.display = 'block'
+    window.document.getElementById('config-display-mensagem').style.display = 'none'
+}

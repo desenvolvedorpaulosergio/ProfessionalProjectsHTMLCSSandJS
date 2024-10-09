@@ -101,8 +101,6 @@
 
     .condig-padrao-estilo{
         background: black;
-        height: 500px;
-        margin: 1px;
-        width: 50%;
+        width: 100%;
     }
 }
