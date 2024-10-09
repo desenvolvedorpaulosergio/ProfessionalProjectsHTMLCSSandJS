@@ -16,7 +16,7 @@
 }
 
 body{
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 /* Configurações Header */
