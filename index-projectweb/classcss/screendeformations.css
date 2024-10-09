@@ -30,6 +30,16 @@
     #config-estilos-botoes > button{
         font-size: 14px;
     }
+    
+    .estilo-botoes-projetos{
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 22px;
+    }
+
+    summary{
+        font-size: 20px;
+    }    
 }
 
 @media screen and (max-width: 550px) {

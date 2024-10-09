@@ -219,28 +219,3 @@ footer{
 }
 
 /* Configurações de Projetos 1 */
-
-.condig-estilo-elementos-padrao{
-    margin-top: 1px;
-    text-align: center;
-}
-
-.estilos-projetos{
-    background: black;
-    margin: 0px auto;
-    overflow-y: auto;
-    height: 72dvh;
-    width: 100%;
-}
-
-.estilo-botoes-projetos{
-    font: normal bolder 25px 'fonte-texto2';
-    background: #222222;
-    transition: 100ms;
-    text-align: left;
-    cursor: pointer;
-    color: white;
-    padding: 10px;
-    border: none;
-    width: 100%;
-}

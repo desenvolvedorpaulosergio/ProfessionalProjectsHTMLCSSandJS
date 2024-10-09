@@ -34,3 +34,5 @@ function eventoProjetosWeb(){
         window.document.getElementById('config-display-botoes').style.display = 'block'
     }
 }
+
+//Configurações JavaScript do Primeiro Botão de Projetos
