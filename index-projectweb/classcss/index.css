@@ -16,7 +16,7 @@
 }
 
 body{
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 /* Configurações Header */
@@ -218,4 +218,18 @@ footer{
     animation: anicacaoCarregamento 1s infinite;
 }
 
-/* Configurações de Projetos 1 */
+/* Configurações de Projetos*/
+
+#config-flex-ancoras{
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.condig-padrao-estilo{
+    background: black;
+    height: 500px;
+    margin: 1px;
+    width: 50%;
+}
