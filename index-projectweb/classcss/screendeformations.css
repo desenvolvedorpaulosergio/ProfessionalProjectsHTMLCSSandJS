@@ -24,7 +24,7 @@
     }
 
     #condig-mensagem{
-        height: 480px;
+        height: 80dvh;
     }
 
     #config-estilos-botoes > button{
@@ -64,10 +64,6 @@
     
     #condig-mensagem > span > p{
         font-size: 18px;  
-    }
-
-    #condig-mensagem{
-        height: 500px;
     }
 
     #config-estilos-botoes > button{
