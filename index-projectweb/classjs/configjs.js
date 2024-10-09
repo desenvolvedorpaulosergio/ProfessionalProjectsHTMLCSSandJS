@@ -23,16 +23,4 @@ setInterval(function(){
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto'
 },2000)
 
-function eventoProjetosWeb(){
-    if(window.document.getElementById('config-display-botoes').style.display == 'block'){
-        window.document.getElementById('config-display-botoes').style.animationName = 'eventoBotoes2'
-        setTimeout(function(){
-            window.document.getElementById('config-display-botoes').style.display = 'none'
-        },200)
-    }else{
-        window.document.getElementById('config-display-botoes').style.animationName = 'eventoBotoes'
-        window.document.getElementById('config-display-botoes').style.display = 'block'
-    }
-}
-
 //Configurações JavaScript do Primeiro Botão de Projetos

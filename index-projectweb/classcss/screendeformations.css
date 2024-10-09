@@ -27,19 +27,23 @@
         height: 80dvh;
     }
 
-    #config-estilos-botoes > button{
-        font-size: 14px;
-    }
-    
-    .estilo-botoes-projetos{
+    .estilo-texto-lista{
         text-align: center;
         padding: 10px 0px;
-        font-size: 22px;
+        font-size: 18px;
+    }
+
+    details{
+        padding: 0px 0px 0px 15px;
+    }
+
+    li > a{
+        font-size: 15px;
     }
 
     summary{
         font-size: 20px;
-    }    
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -86,5 +90,19 @@
         align-items: center;
         justify-content: center;
         flex-flow: column nowrap;
+    }
+
+    #config-flex-ancoras{
+        display: flex;
+        align-items: center;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    .condig-padrao-estilo{
+        background: black;
+        height: 500px;
+        margin: 1px;
+        width: 50%;
     }
 }
