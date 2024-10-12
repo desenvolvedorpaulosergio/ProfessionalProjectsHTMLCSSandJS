@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'fontetitulo';
+    src: url('../recursos/fontes/fontetitulo.otf');
+}
+
+@font-face {
+
+    font-family: 'fontetexto';
+    src: url('../recursos/fontes/fontetexto.ttf');
+}
+
+:root{
+    --corfundoheader: black;
+    --corfundofooter: black;
+    --corletratitulo: #ffffff;
+    --corletratexto1: #000000;
+    --corletratexto2: #ffffff;
+}
+
+
+
+header{
+    background: var(--corfundoheader);
+    text-align: center;
+    padding: 10vh 0vh 10vh 0vh;
+    margin: 0vh 0vh 10vh 0vh;
+    height: 100%;
+}
+
+#EstiloTitulo{
+    font: oblique normal 8vh 'fontetitulo';
+    color: var(--corletratitulo);
+}
+
+#EstiloLink{
+    font: bold normal 4vh 'serif';
+    color: var(--corletratexto2);
+    text-decoration: none;
+}
+
+#EstiloLink:hover{
+    color: rgb(145, 145, 145);
+    text-decoration: underline;
+}
+
+.EstiloTexto1{
+    font: bold normal 4vh 'fontetexto';
+    color: var(--corletratexto1);
+    margin-bottom: 10vh;
+    line-height: 7vh;
+    margin: 0vh 0vh 10vh 3vh;
+    text-shadow: 5px 1px 2px rgba(0, 0, 0, 0.432);
+}
+
+#EstiloFundo1{
+    background-size: cover;
+    background: black url('../recursos/imgs/background001.jpg') center center no-repeat fixed;
+    margin: 0vh 0vw 10vh 0vh;
+    padding: 2vw;
+}
+
+#EstiloFundo2{
+    background-size: cover;
+    background: black url('../recursos/imgs/background002.jpg') center center no-repeat fixed;
+    margin: 0vh 0vw 10vh 0vh;
+    padding: 2vw;
+    box-shadow: inset 10px 10px 10px 0px #00000070;
+}
+
+.EstiloTexto2{
+    font: bold normal 4vh 'fontetexto';
+    color: var(--corletratexto2);
+    margin-bottom: 10vh;
+    line-height: 7vh;
+    background: #00000048;
+    margin: 0vh 0vh 10vh 0vh;
+    min-width: 200px;
+    max-width: 300px;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+
+
+#EstiloFooter{
+    font: bold normal 5vh 'serif';
+    color: white;
+    background: var(--corfundoheader);
+    text-align: center;
+    padding: 4vh 0vh 4vh 0vh;
+    margin: 0vh 0vh 0vh 0vh;
+    height: 100%;
+}
