@@ -185,6 +185,7 @@ footer{
 
 .condig-padrao-estilo{
     background: black;
+    overflow-y: auto;
     height: 500px;
     margin: 1px;
     width: 50%;
