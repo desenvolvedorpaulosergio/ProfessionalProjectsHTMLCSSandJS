@@ -1,0 +1,165 @@
+*{
+    padding: 0vw;
+    margin: 0vw;
+}
+
+@font-face {
+    font-family: 'fontetitulos';
+    src: url('../fonts/idroid.otf');
+}
+
+:root{
+    --Cortitulo: #195B37;
+    --Cornavegadorhover: #2F9B5F;
+    --Corletranavegador: #e7ffd9;
+    --FontTitulonavegador: 'Franklin Gothic Medium';
+    --CorTitulonavegador: #ffffff;
+    --CorModeloArticle1: #2FA866;
+    --CorModeloArticle2: #C5EBD6;
+    --CorFooter: #1A5C38;
+}
+
+body{
+    background: #84E1AD;
+}
+
+header{
+    background-image: linear-gradient(180deg, #32B06A, #1D683F);
+    max-width: 100vw;
+    padding: 4vw 0vw 0vw 0vw;
+    margin: 0vw 0vw 0vw 0vw;
+}
+
+#EstiloTitlo{
+    text-align: center;
+    font-size: 3em;
+    font-family: var(--FontTitulonavegador);
+    color: var(--CorTitulonavegador);
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+#ModeloSubtexto{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--Corletranavegador);
+    line-height: 4vw;
+}
+
+.ModeloNavegador{
+    color: var(--Corletranavegador);
+    font-family: serif;
+    font-size: 1em;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 1vw 2vw;
+    margin: 0vw 0vw 0vw 1vw;
+    transition: 1s;
+    border-radius: 1vw;
+}
+
+.ModeloNavegador:hover{
+    background: var(--Cornavegadorhover);
+}
+
+section{
+    min-width: 350px;
+    max-width: 800px;
+    background: white;
+    margin: auto;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    padding: 1vw;
+    box-shadow: 0vw 0vw 1vw rgba(0, 0, 0, 0.541);
+}
+
+.ModeloSubititulo{
+    font-family: 'fontetitulos';
+    color: var(--Cortitulo);
+    line-height: 2;
+    font-size: 2em;
+    background-image: linear-gradient(90deg, #2F9B5F,#e7ffd991);
+    padding: 0vw;
+}
+
+.ModeloTexto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    word-spacing: 0.5vw;
+    text-align: justify;
+    text-indent: 3vw;
+    font-family: 1vw;
+}
+
+#ModeloVideo{
+    text-align: center;
+    width: 100%;
+}
+
+article{
+    width: 95%;
+    padding: 0vw 0vw 0vw 0vw;
+    background: var(--Corletranavegador);
+    border-radius: 2vw;
+    margin: auto;
+    box-shadow: 0vw 0vw 1vw rgba(0, 0, 0, 0.24);
+}
+
+.Estilotituloartigo{
+    background: var(--CorModeloArticle1);
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    color: white;
+    padding: 1vw 0vw 0vw 1vw;
+}
+
+.Margin{
+    margin: 0vw 0vw 0vw 0vw;
+    padding: 0vw 2vw 0vw 2vw;
+}
+
+.ModelInline{
+    display: inline-block;
+}
+
+.ModelList > .ModelInline > li{
+    text-decoration: none;
+}
+
+.ModelInline2{
+    margin: 0vw 0vw 0vw 0vw;
+    padding: 0vw 2vw 0vw 10vw;   
+}
+
+.ModelInline3{
+    margin: 0vw 0vw 0vw 0vw;
+    padding: 0vw 2vw 0vw 10vw;   
+}
+
+footer{
+    background: var(--CorFooter);
+    padding: 1vw;
+}
+
+#EstiloFooter{
+    color: var(--Corletranavegador);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.EstiloLink{
+    text-decoration: none;
+    color: #1D683F;
+    transition-duration: 1s;
+    font-weight: bold;
+}
+
+.EstiloLink:hover{
+    text-decoration: underline;
+    background: #84e1ac77;
+}
+
+li{
+    list-style-type: '✔';
+}
