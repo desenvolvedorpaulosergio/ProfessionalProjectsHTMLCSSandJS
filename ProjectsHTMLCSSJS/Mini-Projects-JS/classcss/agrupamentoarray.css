@@ -41,7 +41,7 @@ input[type=number]{
     width: 70%;
 }
 
-#agrupar{
+#agrupar, #relatorio{
     box-shadow: 5px 5px 0px #CCCCCC;
     font: normal normal 20px 'arial';
     background: white;
@@ -60,7 +60,7 @@ input[type=number]{
 
 #estilo-fundo{
     background: white;
-    height: 120px;
+    height: 140px;
     width: 100%;
 }
 
@@ -69,5 +69,9 @@ select{
     background: white;
     color: #9E9E9E;
     border: none;
+    width: 100%;
+}
+
+#relatorio{
     width: 100%;
 }
