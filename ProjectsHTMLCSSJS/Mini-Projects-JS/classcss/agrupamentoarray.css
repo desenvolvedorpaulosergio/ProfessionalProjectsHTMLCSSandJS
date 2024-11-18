@@ -58,18 +58,17 @@ input[type=number]{
     color: black;
 }
 
-#estilo-fundo{
-    background: white;
-    height: 140px;
-    width: 100%;
-}
-
-select{
+#lista-div{
     font: normal normal 20px 'arial';   
     background: white;
     color: #9E9E9E;
     border: none;
-    width: 100%;
+    text-align: left;
+    height: 140px;
+    width: 95%;
+    overflow-y: auto;
+    margin: 10px 0px;
+    padding: 10px;
 }
 
 #relatorio{
