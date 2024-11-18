@@ -119,3 +119,7 @@ input[type=number]{
 #estilo-center{
     text-align: center;
 }
+
+#relatorio-dados-display{
+    display: none;
+}
