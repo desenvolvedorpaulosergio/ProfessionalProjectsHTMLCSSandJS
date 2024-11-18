@@ -41,7 +41,7 @@ input[type=number]{
     width: 70%;
 }
 
-#agrupar, #relatorio{
+#agrupar, #relatorio, #voltar{
     box-shadow: 5px 5px 0px #CCCCCC;
     font: normal normal 20px 'arial';
     background: white;
@@ -52,7 +52,7 @@ input[type=number]{
     width: 100px;
 }
 
-#agrupar:active, #relatorio:active{
+#agrupar:active, #relatorio:active, #voltar:active{
     transform: scale(0.95);
     box-shadow: none;
     color: black;
@@ -73,4 +73,49 @@ input[type=number]{
 
 #relatorio{
     width: 100%;
+}
+
+#relatorio-dados-container{
+    width: 100dvw;
+    height: 100dvh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    text-align: center;
+}
+
+#relatorio-dados{
+    width: 650px;
+    height: 350px;
+    box-shadow: 5px 5px 0px #CCCCCC;
+    border-radius: 5px;
+    background: #E5E2E2;   
+    padding: 10px;
+    font: normal normal 20px 'arial';   
+    color: #9E9E9E;
+}
+
+#estilo-lista-relatorio{
+    background: white;
+    width: 90%;
+    height: 65%;
+    list-style: '✔' inside none;
+    padding: 10px;
+    margin: auto;
+    margin: 20px auto;
+    text-align: left;
+}
+
+#voltar{
+    width: 90%;
+    margin: auto;
+}
+
+#estilo-center{
+    text-align: center;
 }
