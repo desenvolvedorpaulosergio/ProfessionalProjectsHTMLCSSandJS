@@ -52,8 +52,8 @@ input[type=number]{
     width: 100px;
 }
 
-#agrupar:active{
-    transform: scale(0.90);
+#agrupar:active, #relatorio:active{
+    transform: scale(0.95);
     box-shadow: none;
     color: black;
 }
