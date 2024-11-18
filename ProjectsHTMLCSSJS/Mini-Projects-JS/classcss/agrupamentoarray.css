@@ -53,7 +53,21 @@ input[type=number]{
 }
 
 #agrupar:active{
+    transform: scale(0.90);
     box-shadow: none;
     color: black;
-    transform: scale(0.90);
+}
+
+#estilo-fundo{
+    background: white;
+    height: 120px;
+    width: 100%;
+}
+
+select{
+    font: normal normal 20px 'arial';   
+    background: white;
+    color: #9E9E9E;
+    border: none;
+    width: 100%;
 }
