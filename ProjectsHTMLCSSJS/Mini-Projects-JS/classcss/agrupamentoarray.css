@@ -21,12 +21,39 @@ body{
     height: 300px;
     padding: 20px;
     width: 650px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#container-filho > span{
+    width: 100%;
 }
 
 input[type=number]{
+    font: normal normal 20px 'arial';
     background: white;
+    border-radius: 5px;
+    color: #9E9E9E;
     padding: 10px;
     border: none;
-    width: 90%;
+    width: 70%;
+}
+
+#agrupar{
+    box-shadow: 5px 5px 0px #CCCCCC;
+    font: normal normal 20px 'arial';
+    background: white;
     border-radius: 5px;
+    color: #9E9E9E;
+    padding: 10px;
+    border: none;
+    width: 100px;
+}
+
+#agrupar:active{
+    box-shadow: none;
+    color: black;
+    transform: scale(0.90);
 }
