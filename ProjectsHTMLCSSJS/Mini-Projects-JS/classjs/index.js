@@ -21,13 +21,14 @@ function agrupar(){
 
 function relatorio(){
     if(lista.length >= 2){
+        let mediaLista= lista.reduce((a,b) => a+b)/lista.length;
         window.document.getElementById('total-elementos').innerHTML = `${lista.length}`
-        window.document.getElementById('maior-valor').innerHTML = `${Math.max(lista)}`
-        // window.document.getElementById('menor-valor').innerHTML = `${}`
-        // window.document.getElementById('media').innerHTML = `${}`
-        // window.document.getElementById('soma-total').innerHTML = `${}`
-        // window.document.getElementById('ordem-crescente').innerHTML = `${}`
-        // window.document.getElementById('ordem-drescente').innerHTML = `${}`
+        window.document.getElementById('maior-valor').innerHTML = `${Math.max(...lista)}`
+        window.document.getElementById('menor-valor').innerHTML = `${Math.min(...lista)}`
+        window.document.getElementById('media').innerHTML = `${mediaLista.toFixed(2)}`
+        window.document.getElementById('soma-total').innerHTML = `${lista.reduce((a,b) => a+b)}`
+        window.document.getElementById('ordem-crescente').innerHTML = `${lista.sort((a,b) => a - b)}`
+        window.document.getElementById('ordem-decrescente').innerHTML = `${lista.sort((a,b) => b - a)}`
         window.document.getElementById('relatorio-dados-display').style.display = 'block'
     }else{
         alert('é necessário ter pelo menos 2 números')
