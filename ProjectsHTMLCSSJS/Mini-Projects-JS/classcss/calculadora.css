@@ -24,6 +24,12 @@ body{
     height: 500px;
     padding: 20px;
     width: 350px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 #caixa-entrada{
@@ -34,7 +40,38 @@ body{
     height: 70px;
     margin: auto;
     width: 95%;
+
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+#config-estilo-botoes{
+    border: 2px solid black;
+    margin: auto;
+    height: 80%;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#config-estilo-botoes > button{
+    box-shadow: 5px 5px 0px #CCCCCC;
+    font: normal normal 20px 'arial';
+    background: white;
+    border-radius: 5px;
+    color: #9E9E9E;
+    padding: 10px;
+    border: none;
+    width: 100px;
+}
+
+#config-estilo-botoes > button:active{
+    transform: scale(0.95);
+    box-shadow: none;
+    color: black;
 }
