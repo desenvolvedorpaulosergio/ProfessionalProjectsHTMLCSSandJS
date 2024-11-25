@@ -37,9 +37,16 @@ function evento9(){
     window.document.getElementById('caixa-entrada').innerHTML += 9
 }
 
-function eventoDelete(){
+function evento0(){
+    window.document.getElementById('caixa-entrada').innerHTML += 0
+}
+
+function eventoAC(){
     window.document.getElementById('caixa-entrada').innerHTML = ""
-    caixaEntrada = []
+}
+
+function eventoVirgula(){
+    window.document.getElementById('caixa-entrada').innerHTML += 9
 }
 
 function eventoSoma(){
@@ -60,6 +67,6 @@ function eventoDiv(){
 
 //Nova função "eval(variável)": função que interpreta as operações entre asplas duplas e calcula.
 function eventoIgual(){
-    window.document.getElementById('caixa-entrada').innerHTML = eval(calculo)
     let calculo = window.document.getElementById('caixa-entrada').innerHTML
+    window.document.getElementById('caixa-entrada').innerHTML = eval(calculo)
 }
