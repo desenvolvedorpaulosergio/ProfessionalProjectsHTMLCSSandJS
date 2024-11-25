@@ -45,8 +45,20 @@ function eventoAC(){
     window.document.getElementById('caixa-entrada').innerHTML = ""
 }
 
-function eventoVirgula(){
-    window.document.getElementById('caixa-entrada').innerHTML += 9
+function eventoPonto(){
+    window.document.getElementById('caixa-entrada').innerHTML += "."
+}
+
+function eventoPotencia(){
+    window.document.getElementById('caixa-entrada').innerHTML += "**"
+}
+
+function eventoParentese1(){
+    window.document.getElementById('caixa-entrada').innerHTML += "("
+}
+
+function eventoParentese2(){
+    window.document.getElementById('caixa-entrada').innerHTML += ")"
 }
 
 function eventoSoma(){
