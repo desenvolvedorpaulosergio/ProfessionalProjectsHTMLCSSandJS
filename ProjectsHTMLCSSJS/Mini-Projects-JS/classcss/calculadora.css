@@ -47,7 +47,6 @@ body{
 }
 
 #config-estilo-botoes{
-    border: 2px solid black;
     margin: auto;
     height: 80%;
     width: 100%;
@@ -56,18 +55,19 @@ body{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-
+    gap: 15px;
 }
 
 #config-estilo-botoes > button{
     box-shadow: 5px 5px 0px #CCCCCC;
-    font: normal normal 20px 'arial';
+    font: normal normal 25px 'arial';
+    border-radius: 10000px;
     background: white;
-    border-radius: 5px;
     color: #9E9E9E;
     padding: 10px;
     border: none;
-    width: 100px;
+    height: 70px;
+    width: 70px;
 }
 
 #config-estilo-botoes > button:active{
