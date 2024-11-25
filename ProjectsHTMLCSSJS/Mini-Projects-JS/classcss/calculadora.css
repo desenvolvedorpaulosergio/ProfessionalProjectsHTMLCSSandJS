@@ -37,7 +37,7 @@ body{
     background: white;
     color: #9E9E9E;
     padding: 10px;
-    height: 70px;
+    height: 55px;
     margin: auto;
     width: 95%;
 
@@ -74,4 +74,8 @@ body{
     transform: scale(0.95);
     box-shadow: none;
     color: black;
+}
+
+.material-symbols-outlined{
+    font-size: 25px;
 }
