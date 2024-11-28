@@ -1,0 +1,13 @@
+@charset 'utf-8';
+
+@media screen and (max-width: 570px){
+    nav > a{
+        display: none;
+    }
+    
+    nav > a:last-child{
+        margin-left: auto;
+        display: block;
+        padding: 0;
+    }
+}
