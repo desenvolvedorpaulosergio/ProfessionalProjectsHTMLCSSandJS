@@ -7,12 +7,12 @@
 
 body{
     background: #111111;
-    overflow-x: hidden;
+    overflow: hidden;
     height: 100dvh;
     width: 100dvw;
 }
 
-/* COnfigurações Header */
+/* Configurações Header */
 
 nav{
     padding: 30px 40px;
@@ -75,6 +75,7 @@ nav > img{
 /* Configurações Main */
 
 main{
+    overflow-y: hidden;
     padding: 40px;
 }
 
@@ -113,4 +114,13 @@ main{
 
 #estilo-botao:hover{
     transform: translateY(-5px);
+}
+
+#estilo-container2{
+    background: red;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 100%;
+    position: absolute;
+    transform: translate(60dvw, -60dvh);
 }
