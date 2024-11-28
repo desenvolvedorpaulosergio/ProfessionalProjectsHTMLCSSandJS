@@ -39,3 +39,7 @@
         font-size: 80px;
     }
 }
+
+@media screen and (max-width: 500px){
+    #estilo-coca1{transform: rotate(0deg);}
+}
