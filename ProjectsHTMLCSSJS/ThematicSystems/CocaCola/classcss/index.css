@@ -149,3 +149,23 @@ main{
 #estilo-coca1{transform: rotate(-20deg);}
 #estilo-coca2{transform: rotate(20deg);}
 #estilo-coca4{transform: rotate(20deg);}
+
+.estilo{
+    border-radius: 100%;
+    background: white;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    transition: 300ms;
+}
+
+.estilo-padrao-icones{
+    line-height: 0px;
+    height: 25px;
+    width: 25px;
+}
+
+.estilo:hover{
+    transform: translateY(-5px);
+    background: red;
+}
