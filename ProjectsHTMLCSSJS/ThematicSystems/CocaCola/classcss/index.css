@@ -7,7 +7,12 @@
 
 body{
     background: #111111;
+    overflow-x: hidden;
+    height: 100dvh;
+    width: 100dvw;
 }
+
+/* COnfigurações Header */
 
 nav{
     padding: 30px 40px;
@@ -65,4 +70,47 @@ nav > img{
 
 #estilo-opcoes > a:active{
     transform: scale(0.95);
+}
+
+/* Configurações Main */
+
+main{
+    padding: 40px;
+}
+
+#estilo-container1{
+    margin-top: 50px;
+    width: 450px;
+    height: 60dvh;
+}
+
+#estilo-titulo1{
+    font: normal bold 30px 'arial';
+    color: white;
+}
+
+#estilo-titulo2{
+    font: normal bold 100px 'arial';
+    color: #F53227;
+}
+
+#estilo-texto{
+    font: normal normal 15px 'serif';
+    margin: 30px 0px;
+    color: white;
+}
+
+#estilo-botao{
+    font: normal normal 15px 'arial';
+    border-radius: 30px;
+    background: red;
+    transition: 500ms;
+    color: white;
+    padding: 20px;
+    padding: 10px;
+    border: 0;
+}
+
+#estilo-botao:hover{
+    transform: translateY(-5px);
 }
