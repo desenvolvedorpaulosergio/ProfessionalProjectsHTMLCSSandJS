@@ -8,8 +8,6 @@
 body{
     background: #111111;
     overflow-x: hidden;
-    height: 100dvh;
-    width: 100dvw;
 }
 
 body::-webkit-scrollbar{
@@ -82,7 +80,7 @@ main{
     position: relative;
     overflow: hidden;
     padding: 40px;
-    height: 72dvh;
+    height: 500px;
 }
 
 #estilo-container1{
