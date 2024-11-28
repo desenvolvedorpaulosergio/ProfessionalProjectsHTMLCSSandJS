@@ -7,9 +7,13 @@
 
 body{
     background: #111111;
-    overflow: hidden;
+    overflow-x: hidden;
     height: 100dvh;
     width: 100dvw;
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
 
 /* Configurações Header */
@@ -75,8 +79,10 @@ nav > img{
 /* Configurações Main */
 
 main{
-    overflow-y: hidden;
+    position: relative;
+    overflow: hidden;
     padding: 40px;
+    height: 72dvh;
 }
 
 #estilo-container1{
