@@ -16,7 +16,7 @@ nav{
     align-items: center;
 }
 
-nav > a{
+nav > a, div > a{
     font: normal normal 15px 'arial';
     text-decoration: none;
     padding: 10px 20px;
@@ -28,7 +28,7 @@ nav > a:last-child{
     display: none;
 }
 
-nav > a:hover{
+nav > a:hover, div > a:hover{
     text-decoration: underline;
     color: red;
 }
@@ -40,4 +40,25 @@ nav > a:hover{
 nav > img{
     width: 100px;
     height: 40px;
+}
+
+#estilo-opcoes{
+    background: black;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#estilo-opcoes > a{
+    transition: 400ms;
+}
+
+#estilo-opcoes > a:hover{
+    background: white;
+    color: black;
+}
+
+#estilo-opcoes > a:active{
+    transform: scale(0.95);
 }
