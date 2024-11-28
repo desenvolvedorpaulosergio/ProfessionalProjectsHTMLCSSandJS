@@ -1,6 +1,6 @@
 function tamanhoBody(){
-    if(window.innerWidth > 570){
-        
+    if(window.innerWidth < 570){
+        window.document.getElementById('container-estilo-opcoes').style.display = 'none'
     }
 }
 
