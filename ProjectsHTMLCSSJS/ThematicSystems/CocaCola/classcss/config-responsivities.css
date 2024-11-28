@@ -1,13 +1,41 @@
 @charset 'utf-8';
 
-@media screen and (max-width: 570px){
+@media screen and (max-width: 1000px){
+    #estilo-container1-coca{
+        margin-left: auto;
+        width: 50px;
+    }
+
+    #estilo-coca2, #estilo-coca3, #estilo-coca4{
+        display: none;
+    }
+
+    #estilo-container1{
+        margin-top: 50px;
+        width: 70dvw;
+    }
+}
+
+@media screen and (max-width: 610px){
+    /* Configurações de Responsividade Header */
+
     nav > a{
         display: none;
     }
-    
+
     nav > a:last-child{
         margin-left: auto;
         display: block;
         padding: 0;
+    }
+
+    /* Configurações de Responsividade Main */
+
+    #estilo-titulo1{
+        font-size: 25px;
+    }
+    
+    #estilo-titulo2{
+        font-size: 80px;
     }
 }

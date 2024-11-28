@@ -80,7 +80,7 @@ main{
     position: relative;
     overflow: hidden;
     padding: 40px;
-    height: 500px;
+    height: 470px;
 }
 
 #estilo-container1{
@@ -91,11 +91,13 @@ main{
 
 #estilo-titulo1{
     font: normal bold 30px 'arial';
+    transition: 300ms;
     color: white;
 }
 
 #estilo-titulo2{
     font: normal bold 100px 'arial';
+    transition: 300ms;
     color: #F53227;
 }
 
@@ -118,13 +120,32 @@ main{
 
 #estilo-botao:hover{
     transform: translateY(-5px);
+    cursor: pointer;
 }
 
 #estilo-container2{
-    background: red;
-    width: 1000px;
-    height: 1000px;
+    transform: translate(50dvw, -70dvh);
     border-radius: 100%;
     position: absolute;
-    transform: translate(60dvw, -60dvh);
+    background: red;
+    height: 1500px;
+    width: 1500px;
 }
+
+#estilo-container1-coca{
+    margin-left: auto;
+    width: 450px;
+}
+
+#config-cocas{
+    position: absolute;
+    top: 30dvh;
+}
+
+.estilo-padrao-coca{
+    width: 110px;
+}
+
+#estilo-coca1{transform: rotate(-20deg);}
+#estilo-coca2{transform: rotate(20deg);}
+#estilo-coca4{transform: rotate(20deg);}
