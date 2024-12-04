@@ -1,3 +1,5 @@
+alert('Selecione um número de 1 a 100 por vez sem repetir. Visualize o relatório do conjunto dos números agrupados por você.')
+
 lista = []
 
 function analizeLista(x,y){
