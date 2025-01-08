@@ -50,7 +50,7 @@ nav > a:last-child, #config-estilo-opcoes > a:last-child{
     color: white;
 }
 
-#config-display-equiv{
+#config-display-equiv, #config-display-container2{
     display: none;
 }
 

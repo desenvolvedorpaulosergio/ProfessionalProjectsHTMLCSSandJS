@@ -44,6 +44,6 @@ function eventoConfirmacaoPositiva(){
 }
 
 function eventoForm1(){
-    alert('ok');
-    document.getElementById('form1').href = ''
+    document.getElementById('config-display-container2').style.display = 'block'
+    // document.getElementById('form1').href = 'https://desenvolvedorpaulosergio.github.io/ProfessionalProjectsHTMLCSSandJS/index-projectweb/projects-pdf/form-user.pdf'
 }
