@@ -29,3 +29,17 @@ function eventoProjetosWeb(){
     window.document.getElementById('config-display-ancoras').style.display = 'block'
     window.document.getElementById('config-display-mensagem').style.display = 'none'
 }
+
+
+//configurações de aviso:
+
+function eventoConfirmacaoNegativa(){
+    window.document.getElementById('config-display-container2').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto';
+}
+
+function eventoConfirmacaoPositiva()(){
+    window.document.getElementById('config-display-container2').style.display = 'none'
+    window.document.getElementsByTagName('body')[0].style.overflowY = 'auto';
+}
+
