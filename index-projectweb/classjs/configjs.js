@@ -38,7 +38,7 @@ function eventoConfirmacaoNegativa(){
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto';
 }
 
-function eventoConfirmacaoPositiva()(){
+function eventoConfirmacaoPositiva(){
     window.document.getElementById('config-display-container2').style.display = 'none'
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto';
 }
