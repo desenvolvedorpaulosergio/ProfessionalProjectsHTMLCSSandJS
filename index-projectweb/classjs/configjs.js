@@ -43,3 +43,7 @@ function eventoConfirmacaoPositiva(){
     window.document.getElementsByTagName('body')[0].style.overflowY = 'auto';
 }
 
+function eventoForm1(){
+    alert('ok');
+    document.getElementById('form1').href = ''
+}
