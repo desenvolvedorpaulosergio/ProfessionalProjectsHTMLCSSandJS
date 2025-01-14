@@ -9,3 +9,30 @@
     font-family: 'fonte-texto';
     src: url('../resources/fonte-texto.ttf');
 }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    width: 100dvw;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+/* configurações da div primária */
+
+#div-primária{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#div-primária > h1{
+    font: normal normal 30px 'fonte-titulo';
+    color: #042440;
+}
