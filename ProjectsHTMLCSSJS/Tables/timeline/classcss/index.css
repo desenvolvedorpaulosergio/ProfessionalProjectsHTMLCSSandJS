@@ -29,7 +29,6 @@ body{
 #div-primária{
     width: 100%;
     padding: 10px 40px;
-    border: 1px solid black;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -40,22 +39,33 @@ body{
     font: normal normal 80px 'fonte-titulo';
     transition: 200ms;
     color: #042440;
+    line-height: 0px;
 }
 
 #configurações-titulo2{
-    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 #config-estilo1{
-    font: normal normal 60px arial;
+    font: normal normal 80px arial;
     color: #7BA5D1;
 }
 
 #config-estilo2{
-    font: italic normal 60px arial;
+    font: italic normal 80px arial;
     color: #C5C5C5;
 }
 
 #config-estilo3{
+    font: italic normal 25px arial;
+    color: #C5C5C5;
+    line-height: 0px;
+}
+
+/* configurções de reponsividade */
+
+@media screen and (max-width: 1008px){
     
 }
