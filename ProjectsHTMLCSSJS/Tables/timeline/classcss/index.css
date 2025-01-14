@@ -28,11 +28,34 @@ body{
 
 #div-primária{
     width: 100%;
-    padding: 20px;
+    padding: 10px 40px;
     border: 1px solid black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #div-primária > h1{
-    font: normal normal 30px 'fonte-titulo';
+    font: normal normal 80px 'fonte-titulo';
+    transition: 200ms;
     color: #042440;
+}
+
+#configurações-titulo2{
+    border: 1px solid black;
+}
+
+#config-estilo1{
+    font: normal normal 60px arial;
+    color: #7BA5D1;
+}
+
+#config-estilo2{
+    font: italic normal 60px arial;
+    color: #C5C5C5;
+}
+
+#config-estilo3{
+    
 }
