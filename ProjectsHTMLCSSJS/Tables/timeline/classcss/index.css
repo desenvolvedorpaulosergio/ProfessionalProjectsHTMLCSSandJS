@@ -50,16 +50,19 @@ body{
 
 #config-estilo1{
     font: normal normal 80px arial;
+    transition: 200ms;
     color: #7BA5D1;
 }
 
 #config-estilo2{
     font: italic normal 80px arial;
+    transition: 200ms;
     color: #C5C5C5;
 }
 
 #config-estilo3{
     font: italic normal 25px arial;
+    transition: 200ms;
     color: #C5C5C5;
     line-height: 0px;
 }
@@ -67,5 +70,11 @@ body{
 /* configurções de reponsividade */
 
 @media screen and (max-width: 1008px){
-    
+    #div-primária > h1, #config-estilo1, #config-estilo2{
+        font-size: 45px;
+    }
+
+    #config-estilo3{
+        font-size: 15px;
+    }
 }
