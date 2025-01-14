@@ -16,26 +16,25 @@
 }
 
 body{
-    min-height: 100vh;
+    min-height: 100dvh;
     width: 100dvw;
     display: flex;
-    align-items: center;
-    flex-flow: row nowrap;
-    justify-content: center;
+    flex-flow: column nowrap;
 }
 
 /* configurações da div primária */
 
-#div-primária{
-    width: 100%;
-    padding: 10px 40px;
+#div-primaria{
+    width: 95%;
+    height: 200px;
+    margin: auto;
     display: flex;
+    align-items: center;
     flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: center;
 }
 
-#div-primária > h1{
+#div-primaria > h1{
     font: normal normal 80px 'fonte-titulo';
     transition: 200ms;
     color: #042440;
@@ -43,19 +42,19 @@ body{
 }
 
 #configurações-titulo2{
-    text-align: center;
-    display: flex;
-    flex-flow: column nowrap;
+    /* border: 1px solid black; */
 }
 
 #config-estilo1{
     font: normal normal 80px arial;
+    text-align: center;
     transition: 200ms;
     color: #7BA5D1;
 }
 
 #config-estilo2{
     font: italic normal 80px arial;
+    text-align: center;
     transition: 200ms;
     color: #C5C5C5;
 }
@@ -65,12 +64,13 @@ body{
     transition: 200ms;
     color: #C5C5C5;
     line-height: 0px;
+    text-align: center;
 }
 
 /* configurções de reponsividade */
 
 @media screen and (max-width: 1008px){
-    #div-primária > h1, #config-estilo1, #config-estilo2{
+    #div-primaria > h1, #config-estilo1, #config-estilo2{
         font-size: 45px;
     }
 
