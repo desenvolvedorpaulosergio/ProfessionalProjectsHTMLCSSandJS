@@ -42,3 +42,12 @@ function eventoAdd(){
     let tabela = document.getElementById('elemento-tabela')
     tabela.appendChild(tagTr)
 }
+
+function eventoRemove(){
+    let tabela = document.getElementById('elemento-tabela')    
+    if(tabela.childElementCount > 1){
+        tabela.removeChild(tabela.lastChild)
+    }else{
+        alert('é necessário deixar no mínimo 3 linhas!!!')
+    }
+}
