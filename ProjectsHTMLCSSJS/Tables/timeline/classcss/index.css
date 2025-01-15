@@ -19,17 +19,17 @@ body{
     min-height: 100dvh;
     width: 100dvw;
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
 }
 
 /* configurações da div primária */
 
 #div-primaria{
-    width: 95%;
-    height: 100px;
     margin: 20px auto;
+    height: 100px;
+    width: 95%;
     display: flex;
     align-items: center;
     flex-flow: row nowrap;
@@ -59,10 +59,10 @@ body{
 
 #config-estilo3{
     font: italic normal 25px arial;
+    text-align: center;
     transition: 200ms;
     color: #C5C5C5;
     line-height: 0px;
-    text-align: center;
 }
 
 /* configurções de reponsividade */
@@ -136,11 +136,11 @@ th, td{
 
 #config-flex{
     border-top: 1px solid #ADADAD;
-    height: 50px; /*tirar*/
+    padding: 25px 20px;
     margin: 0px auto;
     width: 100%;
-    padding: 25px 20px;
     display: flex;
+    align-items: center;
     flex-flow: row nowrap;
     justify-content: space-between;
 }
@@ -152,4 +152,20 @@ th, td{
 
 #config-nome > span{
     color: #355b79;
+}
+
+.config-padrao-button{
+    background: #355B79;
+    border-radius: 100%;
+    transition: 200ms;
+    color: #f0ffef;
+    font-size: 20px;
+    line-height: 0;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
+
+#config-button{
+    margin-right: 20px;
 }
