@@ -20,14 +20,16 @@ body{
     width: 100dvw;
     display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /* configurações da div primária */
 
 #div-primaria{
     width: 95%;
-    height: 200px;
-    margin: auto;
+    height: 100px;
+    margin: 20px auto;
     display: flex;
     align-items: center;
     flex-flow: row nowrap;
@@ -39,10 +41,6 @@ body{
     transition: 200ms;
     color: #042440;
     line-height: 0px;
-}
-
-#configurações-titulo2{
-    /* border: 1px solid black; */
 }
 
 #config-estilo1{
@@ -77,4 +75,13 @@ body{
     #config-estilo3{
         font-size: 15px;
     }
+}
+
+/* configurações secundárias */
+
+#div-secundaria{
+    border: 1px solid black;
+    height: 400px; /*tirar*/
+    margin: 0px auto;
+    width: 95%;
 }
