@@ -81,7 +81,16 @@ body{
 
 #div-secundaria{
     border: 1px solid black;
-    height: 400px; /*tirar*/
+    height: 300px; /*tirar*/
+    margin: 0px auto;
+    width: 95%;
+}
+
+/* configurações terciarias */
+
+#div-terciaria{
+    border: 1px solid black;
+    height: 300px; /*tirar*/
     margin: 0px auto;
     width: 95%;
 }
