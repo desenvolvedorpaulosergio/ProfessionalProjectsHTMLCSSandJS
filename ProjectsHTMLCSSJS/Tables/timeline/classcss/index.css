@@ -16,6 +16,7 @@
 }
 
 body{
+    overflow-x: hidden;
     min-height: 100dvh;
     width: 100dvw;
     display: flex;
@@ -80,8 +81,6 @@ body{
 /* configurações secundárias */
 
 #div-secundaria{
-    /* border: 1px solid black; */
-    height: 300px; /*tirar*/
     margin: 0px auto;
     width: 95%;
 }
@@ -128,10 +127,9 @@ th, td{
 /* configurações terciarias */
 
 #config-display-block{
-    position: fixed;
+    margin-top: 20px;
     display: block;
     width: 95%;
-    top: 85dvh;
 }
 
 #config-flex{
