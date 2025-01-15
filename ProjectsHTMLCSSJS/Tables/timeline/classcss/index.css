@@ -169,27 +169,10 @@ th, td{
     transform: scale(0.95);
 }
 
-/* configurções de reponsividade */
-
-@media screen and (max-width: 1008px){
-    #div-primaria > h1, #config-estilo1, #config-estilo2{
-        font-size: 45px;
-    }
-
-    #config-estilo3{
-        font-size: 15px;
-    }
-}
-
-@media screen and (orientation: portrait){
-    #div-primaria, #div-secundaria, #config-display-block{
-        display: none;
-    }
-}
-
 #config-display-block-modal{
     background: white;
     position: fixed;
+    display: none;
     left: 0;
     top: 0;
 }
@@ -223,4 +206,26 @@ th, td{
 
 #elemento-landscape{
     transform: scale(1.5);
+}
+
+/* configurções de reponsividade */
+
+@media screen and (max-width: 1008px){
+    #div-primaria > h1, #config-estilo1, #config-estilo2{
+        font-size: 45px;
+    }
+
+    #config-estilo3{
+        font-size: 15px;
+    }
+}
+
+@media screen and (orientation: portrait){
+    #div-primaria, #div-secundaria, #config-display-block{
+        display: none;
+    }
+
+    #config-display-block-modal{
+        display: block;
+    }
 }
