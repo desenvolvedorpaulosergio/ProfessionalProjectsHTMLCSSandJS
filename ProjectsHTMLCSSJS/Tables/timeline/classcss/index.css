@@ -154,18 +154,31 @@ th, td{
     color: #355b79;
 }
 
+#config-button{
+    margin-right: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .config-padrao-button{
     background: #355B79;
     border-radius: 100%;
     transition: 200ms;
     color: #f0ffef;
-    font-size: 20px;
-    line-height: 0;
+    font-size: 25px;
     cursor: pointer;
+    line-height: 0;
     padding: 10px;
     border: none;
 }
 
-#config-button{
-    margin-right: 20px;
+.config-padrao-button:hover{
+    transform: scale(1.05);
+}
+
+.config-padrao-button:active{
+    transform: scale(0.95);
 }
