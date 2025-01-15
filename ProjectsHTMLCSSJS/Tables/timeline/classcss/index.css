@@ -127,8 +127,29 @@ th, td{
 
 /* configurações terciarias */
 
-#div-terciaria{
-    height: 100px; /*tirar*/
-    margin: 0px auto;
+#config-display-block{
+    position: fixed;
+    display: block;
     width: 95%;
+    top: 85dvh;
+}
+
+#config-flex{
+    border-top: 1px solid #ADADAD;
+    height: 50px; /*tirar*/
+    margin: 0px auto;
+    width: 100%;
+    padding: 25px 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+#config-nome{
+    font: normal normal 20px 'arial';
+    color: #437fbe;
+}
+
+#config-nome > span{
+    color: #355b79;
 }
