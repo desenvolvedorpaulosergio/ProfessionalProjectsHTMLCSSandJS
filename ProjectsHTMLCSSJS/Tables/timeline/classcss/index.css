@@ -80,17 +80,55 @@ body{
 /* configurações secundárias */
 
 #div-secundaria{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 300px; /*tirar*/
     margin: 0px auto;
     width: 95%;
 }
 
+#div-secundaria > table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+th, td{
+    font: normal normal 20px 'fonte-texto';
+    border: 1px solid black;
+    background: #007cff;
+    width: calc(100%/8);
+    border-radius: 5px;
+    padding: 10px 0px;
+    color: white;
+    border: none;
+}
+
+td{
+    font: normal normal 15px 'arial';
+    background: #C5C5C5;
+    text-align: center;
+    color: black;
+}
+
+input[type=text]{
+    width: 100%;
+    height: 100%;
+}
+
+th, td{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.config-padrao-coluna1{
+    background: #7BA5D1;
+    color: white;
+}
+
 /* configurações terciarias */
 
 #div-terciaria{
-    border: 1px solid black;
-    height: 300px; /*tirar*/
+    height: 100px; /*tirar*/
     margin: 0px auto;
     width: 95%;
 }
