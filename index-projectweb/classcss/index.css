@@ -19,6 +19,10 @@ body{
     overflow-y: hidden;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 /* Configurações Header */
 
 nav{
@@ -251,7 +255,7 @@ li > a:hover{
 
 .estilo-mensagem-modal{
     border: none;
-    height: 240px;
+    height: 50%;
     text-align: center;
     background: white;
     border-radius: 20px;
@@ -268,7 +272,6 @@ li > a:hover{
     color: #437fbe;
     margin: 12px 0px;
     width: 100%;
-    
 }
 
 .estilo-mensagem-modal > button, .estilo-mensagem-modal > span > button{
