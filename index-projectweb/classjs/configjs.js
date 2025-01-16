@@ -61,4 +61,11 @@ document.addEventListener('DOMContentLoaded', function(){
             window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Layouts/perfil-formulario.pdf"
         })
     })
+
+    window.document.getElementById('projeto-estoque').addEventListener('click', function(){
+        document.getElementById('config-display-container2').style.display = 'block'
+        document.getElementById('elemento-positivo').addEventListener('click', function(){
+            window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Layouts/projeto-estoque.pdf"
+        })
+    })
 })
