@@ -54,4 +54,11 @@ document.addEventListener('DOMContentLoaded', function(){
             window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalProjectsHTMLCSSandJS/index-projectweb/projects-pdf/form-user.pdf"
         })
     })
+
+    window.document.getElementById('form2').addEventListener('click', function(){
+        document.getElementById('config-display-container2').style.display = 'block'
+        document.getElementById('elemento-positivo').addEventListener('click', function(){
+            window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalDesign/ProjectsCanva/Layouts/perfil-formulario.pdf"
+        })
+    })
 })
