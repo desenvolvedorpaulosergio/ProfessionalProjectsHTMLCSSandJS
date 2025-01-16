@@ -45,5 +45,13 @@ function eventoConfirmacaoPositiva(){
 
 function eventoForm1(){
     document.getElementById('config-display-container2').style.display = 'block'
-    // document.getElementById('form1').href = 'https://desenvolvedorpaulosergio.github.io/ProfessionalProjectsHTMLCSSandJS/index-projectweb/projects-pdf/form-user.pdf'
 }
+
+document.addEventListener('DOMContentLoaded', function(){
+    window.document.getElementById('form1').addEventListener('click', function(){
+        document.getElementById('config-display-container2').style.display = 'block'
+        document.getElementById('elemento-positivo').addEventListener('click', function(){
+            window.location = "https://desenvolvedorpaulosergio.github.io/ProfessionalProjectsHTMLCSSandJS/index-projectweb/projects-pdf/form-user.pdf"
+        })
+    })
+})
